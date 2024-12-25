@@ -7,10 +7,14 @@
     "start_date": "2024-12-01",
     "end_date": "2024-12-31",
     "status": 1,
-    "position": 1,
+    "position": "29/ đường số 1 - Phường Quang Trung - Quận Đống Đa - HN",
     "created_at": "2024-11-01 10:00:00",
     "impression": 20000,
-    "description": "Khuyến mãi giảm giá lên đến 50% cho tất cả sản phẩm trong dịp Giáng Sinh."
+    "description": "Khuyến mãi giảm giá lên đến 50% cho tất cả sản phẩm trong dịp Giáng Sinh.",
+    "province": 1,
+    "district": 8,
+    "ward": 37
+
   },
   {
     "id": 2,
@@ -20,10 +24,14 @@
     "start_date": "2024-11-29",
     "end_date": "2024-12-01",
     "status": 2,
-    "position": 2,
+    "position": "29/ đường số 1 - Phường Quang Trung - Quận Đống Đa - HN",
     "created_at": "2024-10-25 14:30:00",
     "impression": 50000,
-    "description": "Giảm giá 70% cho các sản phẩm thời trang mùa đông."
+    "description": "Giảm giá 70% cho các sản phẩm thời trang mùa đông.",
+    "province": 1,
+    "district": 8,
+    "ward": 37
+
   },
   {
     "id": 3,
@@ -33,10 +41,14 @@
     "start_date": "2024-12-05",
     "end_date": "2024-12-15",
     "status": 4,
-    "position": 3,
+    "position": "29/ đường số 1 - Phường Quang Trung - Quận Đống Đa - HN",
     "created_at": "2024-11-20 08:00:00",
     "impression": 15000,
-    "description": "Tặng một phần sushi miễn phí cho mỗi hóa đơn từ 500.000 VNĐ."
+    "description": "Tặng một phần sushi miễn phí cho mỗi hóa đơn từ 500.000 VNĐ.",
+    "province": 1,
+    "district": 8,
+    "ward": 37
+
   },
   {
     "id": 4,
@@ -46,10 +58,14 @@
     "start_date": "2024-12-01",
     "end_date": "2025-01-15",
     "status": 5,
-    "position": 4,
+    "position": "29/ đường số 1 - Phường Quang Trung - Quận Đống Đa - HN",
     "created_at": "2024-11-15 09:00:00",
     "impression": 30000,
-    "description": "Giảm giá 40% cho các khóa học Tiếng Anh giao tiếp trực tuyến."
+    "description": "Giảm giá 40% cho các khóa học Tiếng Anh giao tiếp trực tuyến.",
+    "province": 1,
+    "district": 8,
+    "ward": 37
+
   },
   {
     "id": 5,
@@ -59,10 +75,14 @@
     "start_date": "2024-12-10",
     "end_date": "2024-12-31",
     "status": 5,
-    "position": 1,
+    "position": "29/ đường số 1 - Phường Quang Trung - Quận Đống Đa - HN",
     "created_at": "2024-11-25 12:00:00",
     "impression": 45000,
-    "description": "Giảm giá đến 15 triệu đồng cho các dòng laptop mới nhất."
+    "description": "Giảm giá đến 15 triệu đồng cho các dòng laptop mới nhất.",
+    "province": 1,
+    "district": 8,
+    "ward": 37
+
   },
   {
     "id": 6,
@@ -72,10 +92,14 @@
     "start_date": "2024-12-05",
     "end_date": "2024-12-20",
     "status": 1,
-    "position": 5,
+    "position": "29/ đường số 1 - Phường Quang Trung - Quận Đống Đa - HN",
     "created_at": "2024-11-18 15:00:00",
     "impression": 18000,
-    "description": "Mua sản phẩm thể thao trên 1 triệu đồng được tặng ngay balo cao cấp."
+    "description": "Mua sản phẩm thể thao trên 1 triệu đồng được tặng ngay balo cao cấp.",
+    "province": 1,
+    "district": 8,
+    "ward": 37
+
   },
   {
     "id": 7,
@@ -85,10 +109,14 @@
     "start_date": "2024-12-20",
     "end_date": "2024-12-30",
     "status": 1,
-    "position": 6,
+    "position": "29/ đường số 1 - Phường Quang Trung - Quận Đống Đa - HN",
     "created_at": "2024-11-20 17:00:00",
     "impression": 25000,
-    "description": "Giảm giá 20% cho tour du lịch Đà Lạt mùa Giáng Sinh."
+    "description": "Giảm giá 20% cho tour du lịch Đà Lạt mùa Giáng Sinh.",
+    "province": 1,
+    "district": 8,
+    "ward": 37
+
   },
   {
     "id": 8,
@@ -98,10 +126,14 @@
     "start_date": "2024-12-01",
     "end_date": "2024-12-15",
     "status": 1,
-    "position": 7,
+    "position": "29/ đường số 1 - Phường Quang Trung - Quận Đống Đa - HN",
     "created_at": "2024-11-10 10:00:00",
     "impression": 12000,
-    "description": "Khám sức khỏe tổng quát chỉ với 500.000 VNĐ."
+    "description": "Khám sức khỏe tổng quát chỉ với 500.000 VNĐ.",
+    "province": 1,
+    "district": 8,
+    "ward": 37
+
   },
   {
     "id": 9,
@@ -111,10 +143,14 @@
     "start_date": "2024-12-05",
     "end_date": "2024-12-25",
     "status": 1,
-    "position": 4,
+    "position": "29/ đường số 1 - Phường Quang Trung - Quận Đống Đa - HN",
     "created_at": "2024-11-15 11:30:00",
     "impression": 10000,
-    "description": "Đăng ký lái thử xe và nhận ưu đãi đặc biệt khi mua xe trong tháng 12."
+    "description": "Đăng ký lái thử xe và nhận ưu đãi đặc biệt khi mua xe trong tháng 12.",
+    "province": 1,
+    "district": 8,
+    "ward": 37
+
   },
   {
     "id": 10,
@@ -124,9 +160,13 @@
     "start_date": "2024-12-01",
     "end_date": "2024-12-31",
     "status": 1,
-    "position": 5,
+    "position": "29/ đường số 1 - Phường Quang Trung - Quận Đống Đa - HN",
     "created_at": "2024-11-12 09:00:00",
     "impression": 22000,
-    "description": "Giảm giá 30% cho các sản phẩm đồ gỗ trang trí Giáng Sinh."
+    "description": "Giảm giá 30% cho các sản phẩm đồ gỗ trang trí Giáng Sinh.",
+    "province": 1,
+    "district": 8,
+    "ward": 37
+
   }
 ]
