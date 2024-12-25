@@ -1,0 +1,12 @@
+[
+  { "id": 1, "value": "SC-X100", "name": "SC-X100" },
+  { "id": 2, "value": "SC-X200", "name": "SC-X200" },
+  { "id": 1, "value": "SC-X300", "name": "SC-X300" },
+  { "id": 2, "value": "SC-X150", "name": "SC-X150" },
+  { "id": 1, "value": "SC-X180", "name": "SC-X180" },
+  { "id": 2, "value": "SC-X220", "name": "SC-X220" },
+  { "id": 1, "value": "SC-X250", "name": "SC-X250" },
+  { "id": 2, "value": "SC-X190", "name": "SC-X190" },
+  { "id": 1, "value": "SC-X260", "name": "SC-X260" },
+  { "id": 2, "value": "SC-X170", "name": "SC-X170" }
+]

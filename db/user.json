@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "avatar": "photo_2024-11-23_11-22-38.jpg",
+    "userName": "Than123h1123312",
+    "fullName": "Thanh",
+    "status": "ACTIVE",
+    "role": "ADMIN"
+  },
+  {
+    "id": 2,
+    "avatar": "https://i.pravatar.cc/150?u=1",
+    "userName": "Tuong",
+    "fullName": "Tuong",
+    "status": "ACTIVE",
+    "role": "ADMIN"
+  },
+  {
+    "id": 3,
+    "avatar": "https://i.pravatar.cc/150?u=1",
+    "userName": "Manh",
+    "fullName": "Manh",
+    "status": "ACTIVE",
+    "role": "READ"
+  },
+  {
+    "status": "pending",
+    "userName": "test",
+    "fullName": "test",
+    "id": 4
+  },
+  {
+    "status": "ACTIVE",
+    "role": "READER",
+    "userName": "thanh",
+    "fullName": "thanh",
+    "id": 5
+  }
+]

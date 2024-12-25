@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Công nghệ",
+    "key": "CN"
+  },
+  {
+    "id": 2,
+    "name": "Thời trang",
+    "key": "TT"
+  },
+  {
+    "id": 3,
+    "name": "Ẩm thực",
+    "key": "AT"
+  },
+  {
+    "id": 4,
+    "name": "Giáo",
+    "key": "G"
+  },
+  {
+    "id": 5,
+    "name": "Thể thao",
+    "key": "TT"
+  },
+  {
+    "id": 6,
+    "name": "Du lịch",
+    "key": "DL"
+  },
+  {
+    "id": 7,
+    "name": "Sức khỏe",
+    "key": "SK"
+  },
+  {
+    "id": 8,
+    "name": "Ô tô",
+    "key": "OT"
+  },
+  {
+    "id": 9,
+    "name": "Nội thất",
+    "key": "NT"
+  }
+]

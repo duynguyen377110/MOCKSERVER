@@ -1,0 +1,78 @@
+[
+  {
+    "id": "1",
+    "TransactionID": "TXN-001",
+    "ProductSelection": "Sim",
+    "SimNumber": "0901234567",
+    "ProductName": "Sim Mobifone 4G",
+    "PaymentMethod": "Thanh toán qua thẻ tín dụng",
+    "PaymentStatus": "Thành công",
+    "PaymentTime": "2024-12-04 12:15:00",
+    "PaymentSuccess": true,
+    "ActivationStatus": "Đã kích hoạt",
+    "PaymentFailure": {
+      "Reason": "Thẻ hết hạn",
+      "Time": "12:20 PM"
+    },
+    "CancelTransaction": {
+      "Time": "12:25 PM",
+      "Reason": "Thay đổi quyết định"
+    },
+    "ReceiptPrinting": {
+      "Content": "Biên lai in lúc 12:30 PM",
+      "TransactionID": "001"
+    },
+    "LanguageChange": {
+      "OldLanguage": "Tiếng Việt",
+      "NewLanguage": "Tiếng Anh"
+    },
+    "HelpRequest": {
+      "Time": "12:35 PM",
+      "Reason": "Không thể thanh toán"
+    },
+    "SessionTimeout": {
+      "EndTime": "12:40 PM"
+    },
+    "SignOut": {
+      "Time": "12:45 PM"
+    }
+  },
+  {
+    "id": "2",
+    "TransactionID": "TXN-002",
+    "ProductSelection": "Sim",
+    "SimNumber": "0901234567",
+    "ProductName": "Sim Mobifone 4G",
+    "PaymentMethod": "Thanh toán qua thẻ tín dụng",
+    "PaymentStatus": "Thành công",
+    "PaymentTime": "2024-12-04 12:15:00",
+    "PaymentSuccess": true,
+    "ActivationStatus": "Đã kích hoạt",
+    "PaymentFailure": {
+      "Reason": "Thẻ hết hạn",
+      "Time": "12:20 PM"
+    },
+    "CancelTransaction": {
+      "Time": "12:25 PM",
+      "Reason": "Thay đổi quyết định"
+    },
+    "ReceiptPrinting": {
+      "Content": "Biên lai in lúc 12:30 PM",
+      "TransactionID": "002"
+    },
+    "LanguageChange": {
+      "OldLanguage": "Tiếng Việt",
+      "NewLanguage": "Tiếng Anh"
+    },
+    "HelpRequest": {
+      "Time": "12:35 PM",
+      "Reason": "Không thể thanh toán"
+    },
+    "SessionTimeout": {
+      "EndTime": "12:40 PM"
+    },
+    "SignOut": {
+      "Time": "12:45 PM"
+    }
+  }
+]

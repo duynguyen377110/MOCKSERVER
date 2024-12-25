@@ -1,0 +1,252 @@
+[
+    {
+        "id": 1,
+        "date": "2022-06-03T20:20:24.238Z",
+        "status": "pending",
+        "command_id": 598,
+        "product_id": 24,
+        "customer_id": 1,
+        "rating": 3,
+        "comment": "Giải pháp bạn đưa ra rất thực tế, đáp ứng tốt các mục tiêu và yêu cầu ban đầu."
+    },
+    {
+        "id": 2,
+        "date": "2024-03-02T22:57:53.181Z",
+        "status": "pending",
+        "command_id": 595,
+        "product_id": 68,
+        "customer_id": 2,
+        "rating": 4,
+        "comment": "Giải pháp bạn đề xuất mang lại nhiều giá trị và phù hợp với nhu cầu đề ra."
+    },
+    {
+        "id": 3,
+        "date": "2022-03-07T20:54:09.357Z",
+        "status": "pending",
+        "command_id": 595,
+        "product_id": 87,
+        "customer_id": 3,
+        "rating": 1,
+        "comment": "Hướng đi bạn chọn rất hữu ích, giải quyết được phần lớn các vấn đề đã đặt ra."
+    },
+    {
+        "id": 4,
+        "date": "2022-09-20T04:56:16.815Z",
+        "status": "pending",
+        "command_id": 594,
+        "product_id": 67,
+        "customer_id": 4,
+        "rating": 4,
+        "comment": "Giải pháp của bạn rất sáng tạo, đáp ứng được yêu cầu và mục tiêu một cách hiệu quả."
+    },
+    {
+        "id": 5,
+        "date": "2024-10-29T14:32:53.358Z",
+        "status": "pending",
+        "command_id": 594,
+        "product_id": 122,
+        "customer_id": 5,
+        "rating": 1,
+        "comment": "Những giải pháp được trình bày rất chi tiết, phù hợp với mục tiêu đề ra."
+    },
+    {
+        "id": 6,
+        "date": "2021-09-24T21:55:13.500Z",
+        "status": "accepted",
+        "command_id": 590,
+        "product_id": 44,
+        "customer_id": 6,
+        "rating": 1,
+        "comment": "Cách tiếp cận của bạn rất hợp lý, đáp ứng được hầu hết các yêu cầu đặt ra."
+    },
+    {
+        "id": 7,
+        "date": "2023-08-19T09:02:58.437Z",
+        "status": "pending",
+        "command_id": 583,
+        "product_id": 40,
+        "customer_id": 7,
+        "rating": 3,
+        "comment": "Giải pháp bạn cung cấp mang tính ứng dụng cao và phù hợp với thực tế."
+    },
+    {
+        "id": 8,
+        "date": "2024-10-12T19:58:01.867Z",
+        "status": "rejected",
+        "command_id": 583,
+        "product_id": 17,
+        "customer_id": 8,
+        "rating": 3,
+        "comment": "Hướng giải quyết của bạn rất logic, phù hợp với các mục tiêu đã đề ra."
+    },
+    {
+        "id": 9,
+        "date": "2024-01-03T13:31:31.891Z",
+        "status": "pending",
+        "command_id": 583,
+        "product_id": 41,
+        "customer_id": 9,
+        "rating": 5,
+        "comment": "Giải pháp bạn đề xuất rất thiết thực và giải quyết tốt các yêu cầu quan trọng."
+    },
+    {
+        "id": 10,
+        "date": "2023-05-04T02:36:47.813Z",
+        "status": "rejected",
+        "command_id": 583,
+        "product_id": 42,
+        "customer_id": 10,
+        "rating": 5,
+        "comment": "Giải pháp bạn cung cấp đã thể hiện sự sáng tạo và bám sát với mục tiêu ban đầu."
+    },
+    {
+        "id": 11,
+        "date": "2021-02-16T07:58:09.964Z",
+        "status": "pending",
+        "command_id": 573,
+        "product_id": 119,
+        "customer_id": 11,
+        "rating": 2,
+        "comment": "Phương pháp bạn áp dụng rất hiệu quả, giải quyết được hầu hết các vấn đề."
+    },
+    {
+        "id": 12,
+        "date": "2022-12-20T09:16:16.848Z",
+        "status": "rejected",
+        "command_id": 570,
+        "product_id": 34,
+        "customer_id": 12,
+        "rating": 4,
+        "comment": "Cách tiếp cận của bạn đáp ứng tốt yêu cầu và mang lại giá trị lớn cho dự án."
+    },
+    {
+        "id": 13,
+        "date": "2023-03-30T13:45:23.478Z",
+        "status": "accepted",
+        "command_id": 570,
+        "product_id": 116,
+        "customer_id": 13,
+        "rating": 4,
+        "comment": "Giải pháp bạn cung cấp rất đáng giá, giải quyết được các mục tiêu cốt lõi."
+    },
+    {
+        "id": 14,
+        "date": "2024-03-04T05:50:40.808Z",
+        "status": "rejected",
+        "command_id": 570,
+        "product_id": 114,
+        "customer_id": 14,
+        "rating": 4,
+        "comment": "Hướng giải quyết của bạn rất hợp lý, tập trung tốt vào các yêu cầu cần thiết."
+    },
+    {
+        "id": 15,
+        "date": "2024-09-10T03:29:27.794Z",
+        "status": "accepted",
+        "command_id": 562,
+        "product_id": 94,
+        "customer_id": 15,
+        "rating": 1,
+        "comment": "Những giải pháp bạn cung cấp rất hữu ích, bám sát với kỳ vọng ban đầu."
+    },
+    {
+        "id": 16,
+        "date": "2022-10-05T23:19:29.273Z",
+        "status": "rejected",
+        "command_id": 560,
+        "product_id": 28,
+        "customer_id": 16,
+        "rating": 4,
+        "comment": "Phương pháp bạn sử dụng rất hiệu quả, giải quyết được phần lớn các vấn đề."
+    },
+    {
+        "id": 17,
+        "date": "2021-10-12T06:12:33.886Z",
+        "status": "pending",
+        "command_id": 558,
+        "product_id": 88,
+        "customer_id": 17,
+        "rating": 3,
+        "comment": "Giải pháp của bạn mang lại nhiều giá trị thực tiễn và đáp ứng được yêu cầu."
+    },
+    {
+        "id": 18,
+        "date": "2022-11-25T13:15:29.378Z",
+        "status": "accepted",
+        "command_id": 557,
+        "product_id": 110,
+        "customer_id": 18,
+        "rating": 3,
+        "comment": "Hướng đi bạn chọn rất thông minh, giải quyết tốt các mục tiêu chính."
+    },
+    {
+        "id": 19,
+        "date": "2023-12-11T18:09:23.055Z",
+        "status": "pending",
+        "command_id": 556,
+        "product_id": 53,
+        "customer_id": 5,
+        "rating": 2,
+        "comment": "Giải pháp bạn đề xuất rất phù hợp và đáp ứng tốt các yêu cầu đặt ra."
+    },
+    {
+        "id": 20,
+        "date": "2021-11-11T15:07:40.721Z",
+        "status": "accepted",
+        "command_id": 556,
+        "product_id": 70,
+        "customer_id": 4,
+        "rating": 5,
+        "comment": "Những gì bạn đưa ra rất sát với thực tế, giải quyết được phần lớn vấn đề."
+    },
+    {
+        "id": 21,
+        "date": "2024-07-02T12:41:35.137Z",
+        "status": "accepted",
+        "command_id": 556,
+        "product_id": 80,
+        "customer_id": 3,
+        "rating": 5,
+        "comment": "Giải pháp bạn chọn thể hiện tính sáng tạo và đáp ứng đúng mục tiêu."
+    },
+    {
+        "id": 22,
+        "date": "2022-01-27T12:20:36.042Z",
+        "status": "accepted",
+        "command_id": 556,
+        "product_id": 78,
+        "customer_id": 2,
+        "rating": 4,
+        "comment": "Phương án bạn cung cấp mang lại hiệu quả cao và phù hợp với yêu cầu đề ra."
+    },
+    {
+        "id": 23,
+        "date": "2023-06-17T18:17:23.784Z",
+        "status": "accepted",
+        "command_id": 555,
+        "product_id": 80,
+        "customer_id": 1,
+        "rating": 3,
+        "comment": "Cách tiếp cận của bạn rất thực tiễn, đáp ứng được các yêu cầu quan trọng."
+    },
+    {
+        "id": 24,
+        "date": "2024-02-20T00:46:16.273Z",
+        "status": "accepted",
+        "command_id": 554,
+        "product_id": 4,
+        "customer_id": 6,
+        "rating": 3,
+        "comment": "Giải pháp bạn đề xuất rất hợp lý và giải quyết được hầu hết các mục tiêu."
+    },
+    {
+        "id": 25,
+        "date": "2023-11-15T09:41:30.273Z",
+        "status": "accepted",
+        "command_id": 554,
+        "product_id": 100,
+        "customer_id": 8,
+        "rating": 3,
+        "comment": "Những phương pháp bạn áp dụng rất có giá trị, đáp ứng tốt các yêu cầu đề ra."
+    }
+]

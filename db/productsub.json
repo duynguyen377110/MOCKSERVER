@@ -1,0 +1,12 @@
+[
+  { "id": 1, "productId": "AC001", "description": "Sim A1", "name": "Sim A1", "productSub": "Sim A1" },
+  { "id": 2, "productId": "AC002", "description": "Sim A2", "name": "Sim A1", "productSub": "Sim A1" },
+  { "id": 3, "productId": "AC003", "description": "Sim A3", "name": "Sim A3", "productSub": "Sim A3" },
+  { "id": 4, "productId": "AC004", "description": "Data A1", "name": "Data A1", "productSub": "Data A1" },
+  { "id": 5, "productId": "AC004", "description": "Data A2", "name": "Data A1", "productSub": "Data A1" },
+  { "id": 6, "productId": "AC004", "description": "Thoại B1", "name": "Thoại B1", "productSub": "Thoại B1" },
+  { "id": 7, "productId": "AC004", "description": "Sms A1", "name": "Sms A1", "productSub": "Sms A1" },
+  { "id": 8, "productId": "AC004", "description": "Thoại B2", "name": "Thoại B2", "productSub": "Thoại B2" },
+  { "id": 9, "productId": "AC005", "description": "Sms A2", "name": "Sms A2", "productSub": "Sms A2" },
+  { "id": 10, "productId": "AC005", "description": "Sms A3", "name": "Sms A3", "productSub": "Sms A3" }
+]

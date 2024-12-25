@@ -1,0 +1,562 @@
+[
+    {
+        "id": 1,
+        "reference": "PXDDP2",
+        "date": "2024-12-02T16:06:07.899Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 1,
+        "basket": [
+            {
+                "product_id": 112,
+                "quantity": 1
+            },
+            {
+                "product_id": 30,
+                "quantity": 2
+            },
+            {
+                "product_id": 0,
+                "quantity": 1
+            },
+            {
+                "product_id": 63,
+                "quantity": 2
+            },
+            {
+                "product_id": 30,
+                "quantity": 3
+            },
+            {
+                "product_id": 113,
+                "quantity": 2
+            },
+            {
+                "product_id": 72,
+                "quantity": 1
+            },
+            {
+                "product_id": 44,
+                "quantity": 3
+            },
+            {
+                "product_id": 31,
+                "quantity": 2
+            },
+            {
+                "product_id": 20,
+                "quantity": 2
+            }
+        ],
+        "total_ex_taxes": 550.12,
+        "delivery_fees": 6.37,
+        "tax_rate": 0.2,
+        "taxes": 111.3,
+        "total": 667.79,
+        "status": "ordered",
+        "returned": false
+    },
+    {
+        "id": 2,
+        "reference": "5KEOEA",
+        "date": "2024-12-02T05:30:18.576Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 2,
+        "basket": [
+            {
+                "product_id": 42,
+                "quantity": 1
+            },
+            {
+                "product_id": 45,
+                "quantity": 2
+            }
+        ],
+        "total_ex_taxes": 49.01,
+        "delivery_fees": 4.55,
+        "tax_rate": 0.12,
+        "taxes": 6.43,
+        "total": 59.99,
+        "status": "delivered",
+        "returned": false
+    },
+    {
+        "id": 3,
+        "reference": "D8PDD0",
+        "date": "2024-12-01T07:16:14.434Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 3,
+        "basket": [
+            {
+                "product_id": 93,
+                "quantity": 5
+            }
+        ],
+        "total_ex_taxes": 216.75,
+        "delivery_fees": 6.21,
+        "tax_rate": 0.17,
+        "taxes": 37.9,
+        "total": 260.86,
+        "status": "delivered",
+        "returned": false
+    },
+    {
+        "id": 4,
+        "reference": "XL2ZDT",
+        "date": "2024-11-29T11:06:30.936Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 4,
+        "basket": [
+            {
+                "product_id": 68,
+                "quantity": 2
+            }
+        ],
+        "total_ex_taxes": 74.22,
+        "delivery_fees": 6.35,
+        "tax_rate": 0.17,
+        "taxes": 13.7,
+        "total": 94.27,
+        "status": "delivered",
+        "returned": false
+    },
+    {
+        "id": 5,
+        "reference": "97AB1V",
+        "date": "2024-11-26T01:48:53.958Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 5,
+        "basket": [
+            {
+                "product_id": 21,
+                "quantity": 3
+            },
+            {
+                "product_id": 33,
+                "quantity": 1
+            },
+            {
+                "product_id": 87,
+                "quantity": 1
+            }
+        ],
+        "total_ex_taxes": 391.8,
+        "delivery_fees": 6.96,
+        "tax_rate": 0.12,
+        "taxes": 47.85,
+        "total": 446.61,
+        "status": "ordered",
+        "returned": false
+    },
+    {
+        "id": 6,
+        "reference": "IY8W6H",
+        "date": "2024-11-24T01:39:49.227Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 6,
+        "basket": [
+            {
+                "product_id": 66,
+                "quantity": 2
+            }
+        ],
+        "total_ex_taxes": 53.32,
+        "delivery_fees": 5.29,
+        "tax_rate": 0.17,
+        "taxes": 9.96,
+        "total": 68.57,
+        "status": "ordered",
+        "returned": false
+    },
+    {
+        "id": 7,
+        "reference": "5G71IV",
+        "date": "2024-11-23T22:47:15.859Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 7,
+        "basket": [
+            {
+                "product_id": 56,
+                "quantity": 2
+            },
+            {
+                "product_id": 108,
+                "quantity": 1
+            }
+        ],
+        "total_ex_taxes": 85.23,
+        "delivery_fees": 4.97,
+        "tax_rate": 0.17,
+        "taxes": 15.33,
+        "total": 105.53,
+        "status": "delivered",
+        "returned": false
+    },
+    {
+        "id": 8,
+        "reference": "YFN5SN",
+        "date": "2024-11-21T05:06:20.153Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 8,
+        "basket": [
+            {
+                "product_id": 5,
+                "quantity": 1
+            }
+        ],
+        "total_ex_taxes": 27.67,
+        "delivery_fees": 6.15,
+        "tax_rate": 0.12,
+        "taxes": 4.06,
+        "total": 37.88,
+        "status": "delivered",
+        "returned": true
+    },
+    {
+        "id": 9,
+        "reference": "DLFMC9",
+        "date": "2024-11-19T22:56:43.619Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 9,
+        "basket": [
+            {
+                "product_id": 64,
+                "quantity": 2
+            },
+            {
+                "product_id": 116,
+                "quantity": 4
+            }
+        ],
+        "total_ex_taxes": 293.44,
+        "delivery_fees": 4.72,
+        "tax_rate": 0.17,
+        "taxes": 50.69,
+        "total": 348.85,
+        "status": "ordered",
+        "returned": false
+    },
+    {
+        "id": 10,
+        "reference": "1JV148",
+        "date": "2024-11-17T12:34:23.016Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 10,
+        "basket": [
+            {
+                "product_id": 104,
+                "quantity": 1
+            }
+        ],
+        "total_ex_taxes": 33.27,
+        "delivery_fees": 4.26,
+        "tax_rate": 0.17,
+        "taxes": 6.38,
+        "total": 43.91,
+        "status": "delivered",
+        "returned": false
+    },
+    {
+        "id": 11,
+        "reference": "7B7A78",
+        "date": "2024-11-14T03:01:37.153Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 11,
+        "basket": [
+            {
+                "product_id": 62,
+                "quantity": 1
+            },
+            {
+                "product_id": 20,
+                "quantity": 1
+            },
+            {
+                "product_id": 35,
+                "quantity": 1
+            }
+        ],
+        "total_ex_taxes": 71.05,
+        "delivery_fees": 6.55,
+        "tax_rate": 0.12,
+        "taxes": 9.31,
+        "total": 86.91,
+        "status": "delivered",
+        "returned": false
+    },
+    {
+        "id": 12,
+        "reference": "S7X6JO",
+        "date": "2024-11-11T15:15:50.150Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 12,
+        "basket": [
+            {
+                "product_id": 79,
+                "quantity": 1
+            }
+        ],
+        "total_ex_taxes": 81.27,
+        "delivery_fees": 5.96,
+        "tax_rate": 0.2,
+        "taxes": 17.45,
+        "total": 104.68,
+        "status": "ordered",
+        "returned": false
+    },
+    {
+        "id": 13,
+        "reference": "W15F2R",
+        "date": "2024-11-10T22:06:40.233Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 13,
+        "basket": [
+            {
+                "product_id": 94,
+                "quantity": 1
+            }
+        ],
+        "total_ex_taxes": 24.43,
+        "delivery_fees": 5.47,
+        "tax_rate": 0.2,
+        "taxes": 5.98,
+        "total": 35.88,
+        "status": "delivered",
+        "returned": false
+    },
+    {
+        "id": 14,
+        "reference": "BKVXWM",
+        "date": "2024-11-08T14:07:11.680Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 14,
+        "basket": [
+            {
+                "product_id": 36,
+                "quantity": 1
+            }
+        ],
+        "total_ex_taxes": 89.54,
+        "delivery_fees": 5.76,
+        "tax_rate": 0.17,
+        "taxes": 16.2,
+        "total": 111.5,
+        "status": "delivered",
+        "returned": false
+    },
+    {
+        "id": 15,
+        "reference": "XXSPV8",
+        "date": "2024-11-08T13:53:51.739Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 15,
+        "basket": [
+            {
+                "product_id": 12,
+                "quantity": 1
+            }
+        ],
+        "total_ex_taxes": 28.79,
+        "delivery_fees": 4.51,
+        "tax_rate": 0.12,
+        "taxes": 4,
+        "total": 37.3,
+        "status": "ordered",
+        "returned": false
+    },
+    {
+        "id": 16,
+        "reference": "2AG9JQ",
+        "date": "2024-11-05T17:00:00.000Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 16,
+        "basket": [
+            {
+                "product_id": 12,
+                "quantity": 4
+            },
+            {
+                "product_id": 71,
+                "quantity": 1
+            },
+            {
+                "product_id": 128,
+                "quantity": 3
+            },
+            {
+                "product_id": 82,
+                "quantity": 3
+            },
+            {
+                "product_id": 58,
+                "quantity": 1
+            }
+        ],
+        "total_ex_taxes": 391.47,
+        "delivery_fees": 3.97,
+        "tax_rate": 0.12,
+        "taxes": 47.45,
+        "total": 442.89,
+        "status": "ordered",
+        "returned": false
+    },
+    {
+        "id": 17,
+        "reference": "C2DIXZ",
+        "date": "2024-11-05T17:00:00.000Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 17,
+        "basket": [
+            {
+                "product_id": 14,
+                "quantity": 2
+            }
+        ],
+        "total_ex_taxes": 62.84,
+        "delivery_fees": 3.72,
+        "tax_rate": 0.2,
+        "taxes": 13.31,
+        "total": 79.87,
+        "status": "ordered",
+        "returned": false
+    },
+    {
+        "id": 18,
+        "reference": "KWKWQU",
+        "date": "2024-11-05T17:00:00.000Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 18,
+        "basket": [
+            {
+                "product_id": 101,
+                "quantity": 2
+            },
+            {
+                "product_id": 64,
+                "quantity": 3
+            }
+        ],
+        "total_ex_taxes": 235.33999999999997,
+        "delivery_fees": 4.03,
+        "tax_rate": 0.12,
+        "taxes": 28.72,
+        "total": 268.09,
+        "status": "ordered",
+        "returned": false
+    },
+    {
+        "id": 19,
+        "reference": "D5AC4Z",
+        "date": "2024-11-05T17:00:00.000Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 5,
+        "basket": [
+            {
+                "product_id": 95,
+                "quantity": 1
+            }
+        ],
+        "total_ex_taxes": 30.31,
+        "delivery_fees": 4.97,
+        "tax_rate": 0.12,
+        "taxes": 4.23,
+        "total": 39.51,
+        "status": "ordered",
+        "returned": false
+    },
+    {
+        "id": 20,
+        "reference": "AI1P2N",
+        "date": "2024-11-07T02:45:50.544Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 6,
+        "basket": [
+            {
+                "product_id": 23,
+                "quantity": 1
+            },
+            {
+                "product_id": 119,
+                "quantity": 1
+            }
+        ],
+        "total_ex_taxes": 24.229999999999997,
+        "delivery_fees": 6.91,
+        "tax_rate": 0.12,
+        "taxes": 3.74,
+        "total": 34.88,
+        "status": "ordered",
+        "returned": false
+    },
+    {
+        "id": 21,
+        "reference": "325KMM",
+        "date": "2024-11-06T16:27:36.565Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 7,
+        "basket": [
+            {
+                "product_id": 105,
+                "quantity": 4
+            },
+            {
+                "product_id": 90,
+                "quantity": 1
+            }
+        ],
+        "total_ex_taxes": 148.8,
+        "delivery_fees": 3.2,
+        "tax_rate": 0.2,
+        "taxes": 30.4,
+        "total": 182.4,
+        "status": "ordered",
+        "returned": false
+    },
+    {
+        "id": 22,
+        "reference": "5GR7JV",
+        "date": "2024-11-06T08:58:45.774Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 8,
+        "basket": [
+            {
+                "product_id": 94,
+                "quantity": 2
+            }
+        ],
+        "total_ex_taxes": 48.86,
+        "delivery_fees": 5.1,
+        "tax_rate": 0.2,
+        "taxes": 10.79,
+        "total": 64.75,
+        "status": "delivered",
+        "returned": false
+    },
+    {
+        "id": 23,
+        "reference": "CL1OVG",
+        "date": "2024-11-06T02:48:04.919Z",
+        "date_gte": "2024-10-07T17:00:00.000Z",
+        "customer_id": 9,
+        "basket": [
+            {
+                "product_id": 68,
+                "quantity": 2
+            },
+            {
+                "product_id": 97,
+                "quantity": 4
+            },
+            {
+                "product_id": 14,
+                "quantity": 1
+            }
+        ],
+        "total_ex_taxes": 376.44,
+        "delivery_fees": 5.48,
+        "tax_rate": 0.17,
+        "taxes": 64.93,
+        "total": 446.85,
+        "status": "delivered",
+        "returned": false
+    }
+]

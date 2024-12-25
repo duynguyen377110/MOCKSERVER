@@ -1,0 +1,312 @@
+[
+  {
+    "id": 1,
+    "name": "Hà Nội",
+    "value": "HN"
+  },
+  {
+    "id": 2,
+    "name": "Hồ Chí Minh",
+    "value": "HCM"
+  },
+  {
+    "id": 3,
+    "name": "Đà Nẵng",
+    "value": "DN"
+  },
+  {
+    "id": 4,
+    "name": "Hải Phòng",
+    "value": "HP"
+  },
+  {
+    "id": 5,
+    "name": "Cần Thơ",
+    "value": "CT"
+  },
+  {
+    "id": 6,
+    "name": "An Giang",
+    "value": "AG"
+  },
+  {
+    "id": 7,
+    "name": "Bà Rịa - Vũng Tàu",
+    "value": "BRVT"
+  },
+  {
+    "id": 8,
+    "name": "Bắc Giang",
+    "value": "BG"
+  },
+  {
+    "id": 9,
+    "name": "Bắc Kạn",
+    "value": "BK"
+  },
+  {
+    "id": 10,
+    "name": "Bạc Liêu",
+    "value": "BL"
+  },
+  {
+    "id": 11,
+    "name": "Bắc Ninh",
+    "value": "BN"
+  },
+  {
+    "id": 12,
+    "name": "Bến Tre",
+    "value": "BT"
+  },
+  {
+    "id": 13,
+    "name": "Bình Định",
+    "value": "BD"
+  },
+  {
+    "id": 14,
+    "name": "Bình Dương",
+    "value": "BDU"
+  },
+  {
+    "id": 15,
+    "name": "Bình Phước",
+    "value": "BP"
+  },
+  {
+    "id": 16,
+    "name": "Bình Thuận",
+    "value": "BTH"
+  },
+  {
+    "id": 17,
+    "name": "Cà Mau",
+    "value": "CM"
+  },
+  {
+    "id": 18,
+    "name": "Cao Bằng",
+    "value": "CB"
+  },
+  {
+    "id": 19,
+    "name": "Đắk Lắk",
+    "value": "DL"
+  },
+  {
+    "id": 20,
+    "name": "Đắk Nông",
+    "value": "DN"
+  },
+  {
+    "id": 21,
+    "name": "Điện Biên",
+    "value": "DB"
+  },
+  {
+    "id": 22,
+    "name": "Đồng Nai",
+    "value": "DNA"
+  },
+  {
+    "id": 23,
+    "name": "Đồng Tháp",
+    "value": "DT"
+  },
+  {
+    "id": 24,
+    "name": "Gia Lai",
+    "value": "GL"
+  },
+  {
+    "id": 25,
+    "name": "Hà Giang",
+    "value": "HG"
+  },
+  {
+    "id": 26,
+    "name": "Hà Nam",
+    "value": "HN"
+  },
+  {
+    "id": 27,
+    "name": "Hà Tĩnh",
+    "value": "HT"
+  },
+  {
+    "id": 28,
+    "name": "Hậu Giang",
+    "value": "HG"
+  },
+  {
+    "id": 29,
+    "name": "Hòa Bình",
+    "value": "HB"
+  },
+  {
+    "id": 30,
+    "name": "Hưng Yên",
+    "value": "HY"
+  },
+  {
+    "id": 31,
+    "name": "Khánh Hòa",
+    "value": "KH"
+  },
+  {
+    "id": 32,
+    "name": "Kiên Giang",
+    "value": "KG"
+  },
+  {
+    "id": 33,
+    "name": "Kon Tum",
+    "value": "KT"
+  },
+  {
+    "id": 34,
+    "name": "Lai Châu",
+    "value": "LC"
+  },
+  {
+    "id": 35,
+    "name": "Lâm Đồng",
+    "value": "LD"
+  },
+  {
+    "id": 36,
+    "name": "Lạng Sơn",
+    "value": "LS"
+  },
+  {
+    "id": 37,
+    "name": "Lào Cai",
+    "value": "LC"
+  },
+  {
+    "id": 38,
+    "name": "Long An",
+    "value": "LA"
+  },
+  {
+    "id": 39,
+    "name": "Nam Định",
+    "value": "ND"
+  },
+  {
+    "id": 40,
+    "name": "Nghệ An",
+    "value": "NA"
+  },
+  {
+    "id": 41,
+    "name": "Ninh Bình",
+    "value": "NB"
+  },
+  {
+    "id": 42,
+    "name": "Ninh Thuận",
+    "value": "NT"
+  },
+  {
+    "id": 43,
+    "name": "Phú Thọ",
+    "value": "PT"
+  },
+  {
+    "id": 44,
+    "name": "Phú Yên",
+    "value": "PY"
+  },
+  {
+    "id": 45,
+    "name": "Quảng Bình",
+    "value": "QB"
+  },
+  {
+    "id": 46,
+    "name": "Quảng Nam",
+    "value": "QN"
+  },
+  {
+    "id": 47,
+    "name": "Quảng Ngãi",
+    "value": "QNG"
+  },
+  {
+    "id": 48,
+    "name": "Quảng Ninh",
+    "value": "QN"
+  },
+  {
+    "id": 49,
+    "name": "Quảng Trị",
+    "value": "QT"
+  },
+  {
+    "id": 50,
+    "name": "Sóc Trăng",
+    "value": "ST"
+  },
+  {
+    "id": 51,
+    "name": "Sơn La",
+    "value": "SL"
+  },
+  {
+    "id": 52,
+    "name": "Tây Ninh",
+    "value": "TN"
+  },
+  {
+    "id": 53,
+    "name": "Thái Bình",
+    "value": "TB"
+  },
+  {
+    "id": 54,
+    "name": "Thái Nguyên",
+    "value": "TN"
+  },
+  {
+    "id": 55,
+    "name": "Thanh Hóa",
+    "value": "TH"
+  },
+  {
+    "id": 56,
+    "name": "Thừa Thiên Huế",
+    "value": "TTH"
+  },
+  {
+    "id": 57,
+    "name": "Tiền Giang",
+    "value": "TG"
+  },
+  {
+    "id": 58,
+    "name": "Trà Vinh",
+    "value": "TV"
+  },
+  {
+    "id": 59,
+    "name": "Tuyên Quang",
+    "value": "TQ"
+  },
+  {
+    "id": 60,
+    "name": "Vĩnh Long",
+    "value": "VL"
+  },
+  {
+    "id": 61,
+    "name": "Vĩnh Phúc",
+    "value": "VP"
+  },
+  {
+    "id": 62,
+    "name": "Yên Bái",
+    "value": "YB"
+  }
+]

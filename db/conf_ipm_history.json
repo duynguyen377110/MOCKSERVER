@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "kioskId": "KIOSK-HN-01",
+    "kioskName": "KIOSK-HN-01",
+    "rechargeDate": "2024-12-01",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi A"
+  },
+  {
+    "id": 2,
+    "kioskId": "KIOSK-HN-01",
+    "kioskName": "KIOSK-HN-01",
+    "rechargeDate": "2024-12-05",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi A"
+  },
+  {
+    "id": 3,
+    "kioskId": "KIOSK-HCM-01117",
+    "kioskName": "KIOSK-HCM-01117",
+    "rechargeDate": "2024-12-02",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi B"
+  },
+  {
+    "id": 4,
+    "kioskId": "KIOSK-HCM-01117",
+    "kioskName": "KIOSK-HCM-01117",
+    "rechargeDate": "2024-12-06",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi B"
+  },
+  {
+    "id": 5,
+    "kioskId": "KIOSK-HCM-01258",
+    "kioskName": "KIOSK-HCM-01258",
+    "rechargeDate": "2024-12-03",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi C"
+  },
+  {
+    "id": 6,
+    "kioskId": "KIOSK-HCM-01258",
+    "kioskName": "KIOSK-HCM-01258",
+    "rechargeDate": "2024-12-08",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi C"
+  },
+  {
+    "id": 7,
+    "kioskId": "KIOSK-HCM-01258",
+    "kioskName": "KIOSK-HCM-01258",
+    "rechargeDate": "2024-12-10",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi C"
+  },
+  {
+    "id": 8,
+    "kioskId": "KIOSK-HCM-01817",
+    "kioskName": "KIOSK-HCM-01817",
+    "rechargeDate": "2024-12-04",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi D"
+  },
+  {
+    "id": 9,
+    "kioskId": "KIOSK-HCM-01817",
+    "kioskName": "KIOSK-HCM-01817",
+    "rechargeDate": "2024-12-07",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi D"
+  },
+  {
+    "id": 10,
+    "kioskId": "KIOSK-HCM-016817",
+    "kioskName": "KIOSK-HCM-016817",
+    "rechargeDate": "2024-12-09",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi E"
+  },
+  {
+    "id": 11,
+    "kioskId": "KIOSK-HCM-016817",
+    "kioskName": "KIOSK-HCM-016817",
+    "rechargeDate": "2024-12-12",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi E"
+  },
+  {
+    "id": 12,
+    "kioskId": "KIOSK-HCM-016817",
+    "kioskName": "KIOSK-HCM-016817",
+    "rechargeDate": "2024-12-15",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi E"
+  },
+  {
+    "id": 13,
+    "kioskId": "KIOSK-HCM-97517",
+    "kioskName": "KIOSK-HCM-97517",
+    "rechargeDate": "2024-12-01",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi F"
+  },
+  {
+    "id": 14,
+    "kioskId": "KIOSK-HCM-97517",
+    "kioskName": "KIOSK-HCM-97517",
+    "rechargeDate": "2024-12-10",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi F"
+  },
+  {
+    "id": 15,
+    "kioskId": "KIOSK-HCM-97517",
+    "kioskName": "KIOSK-HCM-97517",
+    "rechargeDate": "2024-12-13",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi F"
+  },
+  {
+    "id": 16,
+    "kioskId": "KIOSK-HCM-97517",
+    "kioskName": "KIOSK-HCM-97517",
+    "rechargeDate": "2024-12-14",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi F"
+  },
+  {
+    "id": 17,
+    "kioskId": "KIOSK-HCM-81214",
+    "kioskName": "KIOSK-HCM-81214",
+    "rechargeDate": "2024-12-02",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi G"
+  },
+  {
+    "id": 18,
+    "kioskId": "KIOSK-HCM-81214",
+    "kioskName": "KIOSK-HCM-81214",
+    "rechargeDate": "2024-12-06",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi G"
+  },
+  {
+    "id": 19,
+    "kioskId": "KIOSK-HCM-31442",
+    "kioskName": "KIOSK-HCM-31442",
+    "rechargeDate": "2024-12-03",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi H"
+  },
+  {
+    "id": 20,
+    "kioskId": "KIOSK-HCM-31442",
+    "kioskName": "KIOSK-HCM-31442",
+    "rechargeDate": "2024-12-05",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi H"
+  },
+  {
+    "id": 21,
+    "kioskId": "KIOSK-HCM-79801",
+    "kioskName": "KIOSK-HCM-79801",
+    "rechargeDate": "2024-12-04",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi I"
+  },
+  {
+    "id": 22,
+    "kioskId": "KIOSK-HCM-79801",
+    "kioskName": "KIOSK-HCM-79801",
+    "rechargeDate": "2024-12-07",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi I"
+  },
+  {
+    "id": 23,
+    "kioskId": "KIOSK-HCM-79801",
+    "kioskName": "KIOSK-HCM-79801",
+    "rechargeDate": "2024-12-09",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi I"
+  },
+  {
+    "id": 24,
+    "kioskId": "KIOSK-HCM-891327",
+    "kioskName": "KIOSK-HCM-891327",
+    "rechargeDate": "2024-12-01",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi J"
+  },
+  {
+    "id": 25,
+    "kioskId": "KIOSK-HCM-891327",
+    "kioskName": "KIOSK-HCM-891327",
+    "rechargeDate": "2024-12-04",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi J"
+  },
+  {
+    "id": 26,
+    "kioskId": "KIOSK-HCM-891327",
+    "kioskName": "KIOSK-HCM-891327",
+    "rechargeDate": "2024-12-06",
+    "rechargeQuantity": 200,
+    "addedBy": "Nguyen Thi J"
+  }
+]

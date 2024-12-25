@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "name": "Quận 1 - HCM",
+    "city": "hcm"
+  },
+  {
+    "id": 2,
+    "name": "Quận 2 - HCM",
+    "city": "hcm"
+  },
+  {
+    "id": 3,
+    "name": "Quận 3 - HCM",
+    "city": "hcm"
+  },
+  {
+    "id": 4,
+    "name": "Quận 4 - HCM",
+    "city": "hcm"
+  },
+  {
+    "id": 5,
+    "name": "Quận 5 - HCM",
+    "city": "hcm"
+  },
+  {
+    "id": 6,
+    "name": "Quận Ba Đình - HN",
+    "city": "hn"
+  },
+  {
+    "id": 7,
+    "name": "Quận Hoàn Kiếm - HN",
+    "city": "hn"
+  },
+  {
+    "id": 8,
+    "name": "Quận Đống Đa - HN",
+    "city": "hn"
+  },
+  {
+    "id": 9,
+    "name": "Quận Hai Bà Trưng - HN",
+    "city": "hn"
+  },
+  {
+    "id": 10,
+    "name": "Quận Cầu Giấy - HN",
+    "city": "hn"
+  },
+  {
+    "id": 11,
+    "name": "Quận Hải Châu - ĐN",
+    "city": "dn"
+  },
+  {
+    "id": 12,
+    "name": "Quận Sơn Trà - ĐN",
+    "city": "dn"
+  },
+  {
+    "id": 13,
+    "name": "Quận Ngũ Hành Sơn - ĐN",
+    "city": "dn"
+  },
+  {
+    "id": 14,
+    "name": "Quận Cẩm Lệ - ĐN",
+    "city": "dn"
+  },
+  {
+    "id": 15,
+    "name": "Quận Liên Chiểu - ĐN",
+    "city": "dn"
+  }
+]

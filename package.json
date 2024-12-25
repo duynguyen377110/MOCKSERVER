@@ -1,0 +1,14 @@
+{
+  "name": "mockData",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "i": "0.3.7",
+    "json-server": "0.17.3"
+  }
+}

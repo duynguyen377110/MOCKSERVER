@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "value": "KIOSK-HN-01",
+    "name": "KIOSK-HN-01"
+  },
+  {
+    "id": 2,
+    "value": "KIOSK-HCM-01117",
+    "name": "KIOSK-HCM-01117"
+  },
+  {
+    "id": 3,
+    "value": "KIOSK-HCM-01258",
+    "name": "KIOSK-HCM-01258"
+  },
+  {
+    "id": 4,
+    "value": "KIOSK-HCM-01817",
+    "name": "KIOSK-HCM-01817"
+  },
+  {
+    "id": 5,
+    "value": "KIOSK-HCM-016817",
+    "name": "KIOSK-HCM-016817"
+  },
+  {
+    "id": 6,
+    "value": "KIOSK-HCM-97517",
+    "name": "KIOSK-HCM-97517"
+  },
+  {
+    "id": 7,
+    "value": "KIOSK-HCM-81214",
+    "name": "KIOSK-HCM-81214"
+  },
+  {
+    "id": 8,
+    "value": "KIOSK-HCM-31442",
+    "name": "KIOSK-HCM-31442"
+  },
+  {
+    "id": 9,
+    "value": "KIOSK-HCM-79801",
+    "name": "KIOSK-HCM-79801"
+  },
+  {
+    "id": 10,
+    "value": "KIOSK-HCM-17794",
+    "name": "KIOSK-HCM-17794"
+  },
+  {
+    "id": 11,
+    "value": "KIOSK-HCM-30903",
+    "name": "KIOSK-HCM-30903"
+  },
+  {
+    "id": 12,
+    "value": "KIOSK-HCM-54150",
+    "name": "KIOSK-HCM-54150"
+  },
+  {
+    "id": 13,
+    "value": "KIOSK-HCM-38444",
+    "name": "KIOSK-HCM-38444"
+  },
+  {
+    "id": 14,
+    "value": "KIOSK-HCM-27045",
+    "name": "KIOSK-HCM-27045"
+  },
+  {
+    "id": 15,
+    "value": "KIOSK-HCM-21335",
+    "name": "KIOSK-HCM-21335"
+  },
+  {
+    "id": 16,
+    "value": "KIOSK-HCM-10660",
+    "name": "KIOSK-HCM-10660"
+  },
+  {
+    "id": 17,
+    "value": "KIOSK-HCM-30224",
+    "name": "KIOSK-HCM-30224"
+  },
+  {
+    "id": 18,
+    "value": "KIOSK-HCM-25539",
+    "name": "KIOSK-HCM-25539"
+  },
+  {
+    "id": 19,
+    "value": "KIOSK-HCM-75068",
+    "name": "KIOSK-HCM-75068"
+  },
+  {
+    "id": 20,
+    "value": "KIOSK-HCM-41569",
+    "name": "KIOSK-HCM-41569"
+  },
+  {
+    "id": 21,
+    "value": "KIOSK-HN-91458",
+    "name": "KIOSK-HN-91458"
+  },
+  {
+    "id": 22,
+    "value": "KIOSK-HN-61857",
+    "name": "KIOSK-HN-61857"
+  },
+  {
+    "id": 23,
+    "value": "KIOSK-HN-92509",
+    "name": "KIOSK-HN-92509"
+  },
+  {
+    "id": 24,
+    "value": "KIOSK-HN-82772",
+    "name": "KIOSK-HN-82772"
+  },
+  {
+    "id": 25,
+    "value": "KIOSK-HN-36576",
+    "name": "KIOSK-HN-36576"
+  },
+  {
+    "id": 26,
+    "value": "KIOSK-HN-94229",
+    "name": "KIOSK-HN-94229"
+  },
+  {
+    "id": 27,
+    "value": "KIOSK-HN-77205",
+    "name": "KIOSK-HN-77205"
+  },
+  {
+    "id": 28,
+    "value": "KIOSK-HN-27952",
+    "name": "KIOSK-HN-27952"
+  },
+  {
+    "id": 29,
+    "value": "KIOSK-HN-19182",
+    "name": "KIOSK-HN-19182"
+  },
+  {
+    "id": 30,
+    "value": "KIOSK-DN-41356",
+    "name": "KIOSK-DN-41356"
+  },
+  {
+    "id": 31,
+    "value": "KIOSK-DN-68226",
+    "name": "KIOSK-DN-68226"
+  },
+  {
+    "id": 32,
+    "value": "KIOSK-DN-11797",
+    "name": "KIOSK-DN-11797"
+  },
+  {
+    "id": 33,
+    "value": "KIOSK-DN-17269",
+    "name": "KIOSK-DN-17269"
+  },
+  {
+    "id": 34,
+    "value": "KIOSK-DN-20869",
+    "name": "KIOSK-DN-20869"
+  },
+  {
+    "id": 35,
+    "value": "KIOSK-DN-92105",
+    "name": "KIOSK-DN-92105"
+  },
+
+  {
+    "id": 36,
+    "value": "KIOSK-HCM-891327",
+    "name": "KIOSK-HCM-891327"
+  }
+]

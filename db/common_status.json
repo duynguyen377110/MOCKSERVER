@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Đang hoạt động",
+    "key": "DHD",
+    "color": "#68c0e6"
+  },
+  {
+    "id": 2,
+    "name": "Ngừng hoạt động",
+    "key": "NHD",
+    "color": "#006494"
+  },
+  {
+    "id": 3,
+    "name": "Mất kết nối",
+    "key": "MKN",
+    "color": "#87adc6"
+  },
+  {
+    "id": 4,
+    "name": "Sắp diễn ra",
+    "key": "SDR",
+    "color": "#17a2b8"
+  },
+  {
+    "id": 5,
+    "name": "Tạm dừng hoạt động",
+    "key": "TDH",
+    "color": "#5ab1bb"
+  }
+]

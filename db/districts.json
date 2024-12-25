@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "districts": "Quận 1 - HCM",
+    "ward": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": 2,
+    "districts": "Quận 2 - HCM",
+    "ward": [6, 7, 8, 9, 10]
+  },
+  {
+    "id": 3,
+    "districts": "Quận 3 - HCM",
+    "ward": [11, 12, 13, 14, 15]
+  },
+  {
+    "id": 4,
+    "districts": "Quận 4 - HCM",
+    "ward": [16, 17, 18, 19, 20]
+  },
+  {
+    "id": 5,
+    "districts": "Quận 5 - HCM",
+    "ward": [21, 22, 23, 24, 25]
+  },
+  {
+    "id": 6,
+    "districts": "Quận Ba Đình - HN",
+    "ward": [26, 27, 28, 29, 30]
+  },
+  {
+    "id": 7,
+    "districts": "Quận Hoàn Kiếm - HN",
+    "ward": [31, 32, 33, 34, 35]
+  },
+  {
+    "id": 8,
+    "districts": "Quận Đống Đa - HN",
+    "ward": [36, 37, 38, 39, 40]
+  },
+  {
+    "id": 9,
+    "districts": "Quận Hai Bà Trưng - HN",
+    "ward": [41, 42, 43, 44, 45]
+  },
+  {
+    "id": 10,
+    "districts": "Quận Cầu Giấy - HN",
+    "ward": [46, 47, 48, 49, 50]
+  },
+  {
+    "id": 11,
+    "districts": "Quận Hải Châu - ĐN",
+    "ward": [51, 52, 53, 54, 55]
+  },
+  {
+    "id": 12,
+    "districts": "Quận Sơn Trà - ĐN",
+    "ward": [56, 57, 58, 59, 60]
+  },
+  {
+    "id": 13,
+    "districts": "Quận Ngũ Hành Sơn - ĐN",
+    "ward": [61, 62, 63, 64, 65]
+  },
+  {
+    "id": 14,
+    "districts": "Quận Cẩm Lệ - ĐN",
+    "ward": [66, 67, 68, 69, 70]
+  },
+  {
+    "id": 15,
+    "districts": "Quận Liên Chiểu - ĐN",
+    "ward": [71, 72, 73, 74, 75]
+  }
+]

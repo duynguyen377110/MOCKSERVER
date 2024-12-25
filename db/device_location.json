@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "kioskId": "KIOSK-HCM-17794",
+    "kioskName": "KIOSK-HCM-17794",
+    "cityProvince": "hcm",
+    "district": 1,
+    "ward": 1
+  },
+  {
+    "id": 2,
+    "kioskId": "KIOSK-HCM-30903",
+    "kioskName": "KIOSK-HCM-30903",
+    "cityProvince": "hcm",
+    "district": 1,
+    "ward": 4
+  },
+  {
+    "id": 3,
+    "kioskId": "KIOSK-HCM-54150",
+    "kioskName": "KIOSK-HCM-54150",
+    "cityProvince": "hcm",
+    "district": 2,
+    "ward": 8
+  },
+  {
+    "id": 4,
+    "kioskId": "KIOSK-HCM-38444",
+    "kioskName": "KIOSK-HCM-38444",
+    "cityProvince": "hcm",
+    "district": 2,
+    "ward": 7
+  },
+  {
+    "id": 5,
+    "kioskId": "KIOSK-HCM-27045",
+    "kioskName": "KIOSK-HCM-27045",
+    "cityProvince": "hcm",
+    "district": 2,
+    "ward": 10
+  },
+  {
+    "id": 6,
+    "kioskId": "KIOSK-HCM-21335",
+    "kioskName": "KIOSK-HCM-21335",
+    "cityProvince": "hcm",
+    "district": 3,
+    "ward": 13
+  },
+  {
+    "id": 7,
+    "kioskId": "KIOSK-HCM-10660",
+    "kioskName": "KIOSK-HCM-10660",
+    "cityProvince": "hcm",
+    "district": 3,
+    "ward": 12
+  },
+  {
+    "id": 8,
+    "kioskId": "KIOSK-HCM-30224",
+    "kioskName": "KIOSK-HCM-30224",
+    "cityProvince": "hcm",
+    "district": 4,
+    "ward": 17
+  },
+  {
+    "id": 9,
+    "kioskId": "KIOSK-HCM-25539",
+    "kioskName": "KIOSK-HCM-25539",
+    "cityProvince": "hcm",
+    "district": 4,
+    "ward": 16
+  },
+  {
+    "id": 10,
+    "kioskId": "KIOSK-HCM-75068",
+    "kioskName": "KIOSK-HCM-75068",
+    "cityProvince": "hcm",
+    "district": 5,
+    "ward": 23
+  },
+  {
+    "id": 11,
+    "kioskId": "KIOSK-HCM-41569",
+    "kioskName": "KIOSK-HCM-41569",
+    "cityProvince": "hcm",
+    "district": 5,
+    "ward": 25
+  },
+  {
+    "id": 12,
+    "kioskId": "KIOSK-HN-91458",
+    "kioskName": "KIOSK-HN-91458",
+    "cityProvince": "hn",
+    "district": 6,
+    "ward": 26
+  },
+  {
+    "id": 13,
+    "kioskId": "KIOSK-HN-61857",
+    "kioskName": "KIOSK-HN-61857",
+    "cityProvince": "hn",
+    "district": 7,
+    "ward": 34
+  },
+  {
+    "id": 14,
+    "kioskId": "KIOSK-HN-92509",
+    "kioskName": "KIOSK-HN-92509",
+    "cityProvince": "hn",
+    "district": 7,
+    "ward": 31
+  },
+  {
+    "id": 15,
+    "kioskId": "KIOSK-HN-82772",
+    "kioskName": "KIOSK-HN-82772",
+    "cityProvince": "hn",
+    "district": 7,
+    "ward": 35
+  },
+  {
+    "id": 16,
+    "kioskId": "KIOSK-HN-36576",
+    "kioskName": "KIOSK-HN-36576",
+    "cityProvince": "hn",
+    "district": 8,
+    "ward": 37
+  },
+  {
+    "id": 17,
+    "kioskId": "KIOSK-HN-94229",
+    "kioskName": "KIOSK-HN-94229",
+    "cityProvince": "hn",
+    "district": 9,
+    "ward": 42
+  },
+  {
+    "id": 18,
+    "kioskId": "KIOSK-HN-77205",
+    "kioskName": "KIOSK-HN-77205",
+    "cityProvince": "hn",
+    "district": 10,
+    "ward": 49
+  },
+  {
+    "id": 19,
+    "kioskId": "KIOSK-HN-27952",
+    "kioskName": "KIOSK-HN-27952",
+    "cityProvince": "hn",
+    "district": 10,
+    "ward": 50
+  },
+  {
+    "id": 20,
+    "kioskId": "KIOSK-HN-19182",
+    "kioskName": "KIOSK-HN-19182",
+    "cityProvince": "hn",
+    "district": 10,
+    "ward": 48
+  },
+  {
+    "id": 21,
+    "kioskId": "KIOSK-DN-41356",
+    "kioskName": "KIOSK-DN-41356",
+    "cityProvince": "dn",
+    "district": 11,
+    "ward": 53
+  },
+  {
+    "id": 22,
+    "kioskId": "KIOSK-DN-68226",
+    "kioskName": "KIOSK-DN-68226",
+    "cityProvince": "dn",
+    "district": 12,
+    "ward": 59
+  },
+  {
+    "id": 23,
+    "kioskId": "KIOSK-DN-11797",
+    "kioskName": "KIOSK-DN-11797",
+    "cityProvince": "dn",
+    "district": 12,
+    "ward": 58
+  },
+  {
+    "id": 24,
+    "kioskId": "KIOSK-DN-17269",
+    "kioskName": "KIOSK-DN-17269",
+    "cityProvince": "dn",
+    "district": 13,
+    "ward": 61
+  },
+  {
+    "id": 25,
+    "kioskId": "KIOSK-DN-20869",
+    "kioskName": "KIOSK-DN-20869",
+    "cityProvince": "dn",
+    "district": 14,
+    "ward": 68
+  },
+  {
+    "id": 26,
+    "kioskId": "KIOSK-DN-92105",
+    "kioskName": "KIOSK-DN-92105",
+    "cityProvince": "dn",
+    "district": 15,
+    "ward": 75
+  }
+]

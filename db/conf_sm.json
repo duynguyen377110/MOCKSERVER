@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "storeId": "VTL001",
+    "storeName": "Viettel Store A",
+    "storePhone": "088888734",
+    "province": "Hà Nội",
+    "district": "Quận Hoàn Kiếm",
+    "ward": "Phường Tràng Tiền",
+    "village": "Ấp Cầu Vồng",
+    "location": "Số 10, Phố Lê Duẩn, Hà Nội",
+    "mapLocation": "https://goo.gl/maps/example1",
+    "storeManager": "Nguyễn Văn A"
+  },
+  {
+    "id": 2,
+    "storeId": "VTL002",
+    "storeName": "Viettel Store B",
+    "storePhone": "088888735",
+    "province": "Hồ Chí Minh",
+    "district": "Quận 1",
+    "ward": "Phường Bến Nghé",
+    "village": "Khu phố 5",
+    "location": "Số 25, Đường Nguyễn Huệ, Hồ Chí Minh",
+    "mapLocation": "https://goo.gl/maps/example2",
+    "storeManager": "Trần Thị B"
+  },
+  {
+    "id": 3,
+    "storeId": "VTL003",
+    "storeName": "Viettel Store C",
+    "storePhone": "088888736",
+    "province": "Đà Nẵng",
+    "district": "Quận Hải Châu",
+    "ward": "Phường Thạch Thang",
+    "village": "Khu phố 2",
+    "location": "Số 50, Đường Bạch Đằng, Đà Nẵng",
+    "mapLocation": "https://goo.gl/maps/example3",
+    "storeManager": "Phạm Văn C"
+  },
+  {
+    "id": 4,
+    "storeId": "VTL004",
+    "storeName": "Viettel Store D",
+    "storePhone": "088888737",
+    "province": "Cần Thơ",
+    "district": "Quận Ninh Kiều",
+    "ward": "Phường Cái Khế",
+    "village": "Ấp Bình Dương",
+    "location": "Số 15, Đường 30 Tháng 4, Cần Thơ",
+    "mapLocation": "https://goo.gl/maps/example4",
+    "storeManager": "Nguyễn Thị D"
+  },
+  {
+    "id": 5,
+    "storeId": "VTL005",
+    "storeName": "Viettel Store E",
+    "storePhone": "088888738",
+    "province": "Hải Phòng",
+    "district": "Quận Hồng Bàng",
+    "ward": "Phường Minh Khai",
+    "village": "Khu phố 3",
+    "location": "Số 30, Đường Lê Lợi, Hải Phòng",
+    "mapLocation": "https://goo.gl/maps/example5",
+    "storeManager": "Lê Văn E"
+  }
+]

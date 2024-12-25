@@ -1,0 +1,7 @@
+[
+  { "id": "1", "name": "Hệ thống KIOSK" },
+  { "id": "2", "name": "Phần mềm thanh toán" },
+  { "id": "3", "name": "Quản lý hàng tồn kho" },
+  { "id": "4", "name": "Phần mềm giao diện người dùng" },
+  { "id": "5", "name": "Giám sát từ xa" }
+]

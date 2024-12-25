@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "value": 1,
+    "name": "Nguyễn Văn Khải",
+    "email": "vankhai@gmail.com",
+    "phone": "0352487777",
+    "address": "29 Đ. Vườn Lài, P. Phú Thuận, Tân Phú, Hồ Chí Minh, Vietnam",
+    "deparment": "IT"
+  },
+  {
+    "id": 2,
+    "value": 2,
+    "name": "Trần Hoàng Long",
+    "email": "longtran@gmail.com",
+    "phone": "0352548729",
+    "address": "30 Đ. Phú Thuận, Phú Thuận, Quận 7, Hồ Chí Minh, Vietnam",
+    "deparment": "IT"
+  },
+  {
+    "id": 3,
+    "value": 3,
+    "name": "Phạm Văn Minh",
+    "email": "phamvanminh@gmail.com",
+    "phone": "0352438799",
+    "address": "3 Đường 15, Linh Chiểu, Thủ Đức, Hồ Chí Minh, Vietnam",
+    "deparment": "IT"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "productId": "PROD-01",
+    "productName": "Sim thường",
+    "productType": "Sim",
+    "description": "SIM thường Viettel là sản phẩm cơ bản dành cho mọi đối tượng khách hàng, đáp ứng nhu cầu nghe gọi, nhắn tin và truy cập internet.",
+    "isActive": true,
+    "productsub": [1, 3]
+  },
+  {
+    "id": 2,
+    "productId": "PROD-02",
+    "productName": "Sim data",
+    "productType": "Sim",
+    "description": "SIM data 3G Viettel là sản phẩm chuyên biệt dành cho nhu cầu truy cập internet, thường được sử dụng trên các thiết bị như điện thoại, máy tính bảng, USB 3G/4G hoặc bộ phát Wi-Fi.",
+    "isActive": true,
+    "productsub": [2]
+  },
+  {
+    "id": 3,
+    "productId": "PROD-03",
+    "productName": "Gói cước Data",
+    "productType": "Gói cước",
+    "description": "Viettel cung cấp nhiều gói cước data 3G/4G đa dạng, phù hợp với nhu cầu truy cập internet của từng đối tượng khách hàng.",
+    "isActive": true,
+    "productsub": [4, 5]
+  },
+  {
+    "id": 4,
+    "productId": "PROD-04",
+    "productName": "Gói cước thoại",
+    "productType": "Gói cước",
+    "description": "Viettel cung cấp nhiều gói cước thoại đa dạng, phù hợp với các nhu cầu sử dụng khác nhau.",
+    "isActive": false,
+    "productsub": [6, 8]
+  },
+  {
+    "id": 5,
+    "productId": "PROD-05",
+    "productName": "Gói cước sms",
+    "productType": "Gói cước",
+    "description": "Viettel cung cấp nhiều gói cước sms đa dạng, phù hợp với các nhu cầu sử dụng khác nhau.",
+    "isActive": false,
+    "productsub": [7, 9, 10]
+  }
+]

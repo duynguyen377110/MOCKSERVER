@@ -1,0 +1,12 @@
+[
+  { "id": 1, "value": "INPROGRESS", "name": "Hoạt động", "color": "#68C0E6" },
+  { "id": 2, "value": "MAINTENANCE", "name": "Bảo trì", "color": "#4d6eb9" },
+  { "id": 3, "value": "STOP", "name": "Ngừng", "color": "#E6D668" },
+  { "id": 4, "value": "NORMAL", "name": "Bình thường", "color": "#BCE668" },
+  { "id": 5, "value": "SUCCESS", "name": "Thành công", "color": "#68E66C" },
+  { "id": 6, "value": "PENDING", "name": "Đang xử lý", "color": "#E1D05F" },
+  { "id": 7, "value": "FAILED", "name": "Thất bại", "color": "#E85247" },
+  { "id": 8, "value": "RESOLVED", "name": "Hoàn thành", "color": "#4e7a50" },
+  { "id": 9, "value": "NEEDRECHARGE", "name": "Cần nạp thêm", "color": "#68c0e6" },
+  { "id": 10, "value": "FULL", "name": "Đủ", "color": "#496978" }
+]

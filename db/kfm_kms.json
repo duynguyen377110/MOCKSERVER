@@ -1,0 +1,182 @@
+[
+  {
+    "id": "LOG-001",
+    "deviceId": "KIOSK-HN-01",
+    "logType": "Lỗi phần mềm",
+    "description": "Hệ thống bị sập khi in vé",
+    "status": "PENDING",
+    "severity": "HIGH",
+    "timestamp": "2024-12-04 14:30:00",
+    "resolvedAt": "",
+    "assignedTechnician": 3,
+    "errorCode": "ERR-502",
+    "hardwareComponent": "Màn hình cảm ứng",
+    "softwareComponent": "Phần mềm thanh toán",
+    "attachments": {
+      "title": "1mb-examplefile-com.txt",
+      "src": "https://examplefile.com/file-download/19"
+    }
+  },
+  {
+    "id": "LOG-002",
+    "deviceId": "KIOSK-HN-01",
+    "logType": "Lỗi phần cứng",
+    "description": "Máy in không hoạt động",
+    "status": "RESOLVED",
+    "severity": "MEDIUM",
+    "timestamp": "2024-12-04 15:00:00",
+    "resolvedAt": "2024-12-04 16:00:00",
+    "assignedTechnician": 3,
+    "errorCode": "ERR-303",
+    "hardwareComponent": "Máy in",
+    "softwareComponent": "Hệ thống KIOSK",
+    "attachments": {
+      "title": "1mb-examplefile-com.txt",
+      "src": "https://examplefile.com/file-download/19"
+    }
+  },
+  {
+    "id": "LOG-003",
+    "deviceId": "KIOSK-HN-01",
+    "logType": "Lỗi phần mềm",
+    "description": "Thanh toán thất bại do hết thời gian chờ",
+    "status": "PENDING",
+    "severity": "HIGH",
+    "timestamp": "2024-12-04 16:30:00",
+    "resolvedAt": "",
+    "assignedTechnician": 2,
+    "errorCode": "ERR-504",
+    "hardwareComponent": "Đầu đọc thẻ",
+    "softwareComponent": "Phần mềm thanh toán",
+    "attachments": {
+      "title": "1mb-examplefile-com.txt",
+      "src": "https://examplefile.com/file-download/19"
+    }
+  },
+  {
+    "id": "LOG-004",
+    "deviceId": "KIOSK-HN-01",
+    "logType": "Lỗi mạng",
+    "description": "Mất kết nối mạng đột ngột",
+    "status": "RESOLVED",
+    "severity": "HIGH",
+    "timestamp": "2024-12-04 17:10:00",
+    "resolvedAt": "2024-12-04 17:40:00",
+    "assignedTechnician": 2,
+    "errorCode": "ERR-405",
+    "hardwareComponent": "Camera",
+    "softwareComponent": "Giám sát từ xa",
+    "attachments": {
+      "title": "1mb-examplefile-com.txt",
+      "src": "https://examplefile.com/file-download/19"
+    }
+  },
+  {
+    "id": "LOG-005",
+    "deviceId": "KIOSK-HN-01",
+    "logType": "Lỗi phần mềm",
+    "description": "Hệ thống bị sập trong quá trình giao dịch",
+    "status": "PENDING",
+    "severity": "MEDIUM",
+    "timestamp": "2024-12-05 08:00:00",
+    "resolvedAt": "",
+    "assignedTechnician": 2,
+    "errorCode": "ERR-506",
+    "hardwareComponent": "Màn hình cảm ứng",
+    "softwareComponent": "Phần mềm giao diện người dùng",
+    "attachments": {
+      "title": "1mb-examplefile-com.txt",
+      "src": "https://examplefile.com/file-download/19"
+    }
+  },
+  {
+    "id": "LOG-006",
+    "deviceId": "KIOSK-HN-01",
+    "logType": "Lỗi phần cứng",
+    "description": "Kẹt giấy trong máy in",
+    "status": "RESOLVED",
+    "severity": "LOW",
+    "timestamp": "2024-12-05 09:10:00",
+    "resolvedAt": "2024-12-05 09:30:00",
+    "assignedTechnician": 2,
+    "errorCode": "ERR-507",
+    "hardwareComponent": "Máy in",
+    "softwareComponent": "Hệ thống KIOSK",
+    "attachments": {
+      "title": "1mb-examplefile-com.txt",
+      "src": "https://examplefile.com/file-download/19"
+    }
+  },
+  {
+    "id": "LOG-007",
+    "deviceId": "KIOSK-HN-01",
+    "logType": "Lỗi phần mềm",
+    "description": "Cập nhật phần mềm thất bại",
+    "status": "PENDING",
+    "severity": "HIGH",
+    "timestamp": "2024-12-05 10:00:00",
+    "resolvedAt": "",
+    "assignedTechnician": 1,
+    "errorCode": "ERR-508",
+    "hardwareComponent": "Màn hình",
+    "softwareComponent": "Hệ thống KIOSK",
+    "attachments": {
+      "title": "1mb-examplefile-com.txt",
+      "src": "https://examplefile.com/file-download/19"
+    }
+  },
+  {
+    "id": "LOG-008",
+    "deviceId": "KIOSK-HN-01",
+    "logType": "Lỗi mạng",
+    "description": "Mất tín hiệu Wi-Fi",
+    "status": "RESOLVED",
+    "severity": "MEDIUM",
+    "timestamp": "2024-12-05 11:00:00",
+    "resolvedAt": "2024-12-05 11:20:00",
+    "assignedTechnician": 1,
+    "errorCode": "ERR-509",
+    "hardwareComponent": "Camera",
+    "softwareComponent": "Giám sát từ xa",
+    "attachments": {
+      "title": "1mb-examplefile-com.txt",
+      "src": "https://examplefile.com/file-download/19"
+    }
+  },
+  {
+    "id": "LOG-009",
+    "deviceId": "KIOSK-HN-01",
+    "logType": "Lỗi phần cứng",
+    "description": "Máy quét gặp sự cố",
+    "status": "PENDING",
+    "severity": "LOW",
+    "timestamp": "2024-12-05 12:00:00",
+    "resolvedAt": "",
+    "assignedTechnician": 1,
+    "errorCode": "ERR-510",
+    "hardwareComponent": "Đầu đọc thẻ",
+    "softwareComponent": "Quản lý hàng tồn kho",
+    "attachments": {
+      "title": "1mb-examplefile-com.txt",
+      "src": "https://examplefile.com/file-download/19"
+    }
+  },
+  {
+    "id": "LOG-010",
+    "deviceId": "KIOSK-HN-01",
+    "logType": "Lỗi phần mềm",
+    "description": "Mô-đun thanh toán không phản hồi",
+    "status": "RESOLVED",
+    "severity": "HIGH",
+    "timestamp": "2024-12-05 13:30:00",
+    "resolvedAt": "2024-12-05 14:00:00",
+    "assignedTechnician": 1,
+    "errorCode": "ERR-511",
+    "hardwareComponent": "Đầu đọc thẻ",
+    "softwareComponent": "Phần mềm thanh toán",
+    "attachments": {
+      "title": "1mb-examplefile-com.txt",
+      "src": "https://examplefile.com/file-download/19"
+    }
+  }
+]

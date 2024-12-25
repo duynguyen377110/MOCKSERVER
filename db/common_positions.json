@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Chọn tất cả",
+    "value": "Triển khai toàn quốc",
+    "city": "Chọn tất cả",
+    "district_code": "",
+    "district": "",
+    "ward_code": "",
+    "ward": "",
+    "ward_id": "",
+    "type": ""
+  },
+  {
+    "id": 2,
+    "name": "Thành phố Hà Nội - Quận Ba Đình - Phường Phúc Xá",
+    "value": "Thành phố Hà Nội - Quận Ba Đình - Phường Phúc Xá",
+    "city": "Thành phố Hà Nội",
+    "district_code": "01",
+    "district": "Quận Ba Đình",
+    "ward_code": "001",
+    "ward": "Phường Phúc Xá",
+    "ward_id": "00001",
+    "type": "Phường"
+  },
+  {
+    "id": 3,
+    "name": "Thành phố Hà Nội - Quận Ba Đình - Phường Trúc Bạch",
+    "value": "Thành phố Hà Nội - Quận Ba Đình - Phường Trúc Bạch",
+    "city": "Thành phố Hà Nội",
+    "district_code": "01",
+    "district": "Quận Ba Đình",
+    "ward_code": "001",
+    "ward": "Phường Trúc Bạch",
+    "ward_id": "00004",
+    "type": "Phường"
+  },
+  {
+    "id": 4,
+    "name": "Thành phố Hà Nội - Quận Ba Đình - Phường Vĩnh Phúc",
+    "value": "Thành phố Hà Nội - Quận Ba Đình - Phường Vĩnh Phúc",
+    "city": "Thành phố Hà Nội",
+    "district_code": "01",
+    "district": "Quận Ba Đình",
+    "ward_code": "001",
+    "ward": "Phường Vĩnh Phúc",
+    "ward_id": "00006",
+    "type": "Phường"
+  },
+  {
+    "id": 5,
+    "name": "Thành phố Hà Nội - Quận Ba Đình - Phường Cống Vị",
+    "value": "Thành phố Hà Nội - Quận Ba Đình - Phường Cống Vị",
+    "city": "Thành phố Hà Nội",
+    "district_code": "01",
+    "district": "Quận Ba Đình",
+    "ward_code": "001",
+    "ward": "Phường Cống Vị",
+    "ward_id": "00007",
+    "type": "Phường"
+  },
+  {
+    "id": 6,
+    "name": "Thành phố Hà Nội - Quận Ba Đình - Phường Liễu Giai",
+    "value": "Thành phố Hà Nội - Quận Ba Đình - Phường Liễu Giai",
+    "city": "Thành phố Hà Nội",
+    "district_code": "01",
+    "district": "Quận Ba Đình",
+    "ward_code": "001",
+    "ward": "Phường Liễu Giai",
+    "ward_id": "00008",
+    "type": "Phường"
+  },
+  {
+    "id": 7,
+    "name": "Thành phố Hà Nội - Quận Ba Đình - Phường Nguyễn Trung Trực",
+    "value": "Thành phố Hà Nội - Quận Ba Đình - Phường Nguyễn Trung Trực",
+    "city": "Thành phố Hà Nội",
+    "district_code": "01",
+    "district": "Quận Ba Đình",
+    "ward_code": "001",
+    "ward": "Phường Nguyễn Trung Trực",
+    "ward_id": "00010",
+    "type": "Phường"
+  },
+  {
+    "id": 8,
+    "name": "Thành phố Hà Nội - Quận Ba Đình - Phường Quán Thánh",
+    "value": "Thành phố Hà Nội - Quận Ba Đình - Phường Quán Thánh",
+    "city": "Thành phố Hà Nội",
+    "district_code": "01",
+    "district": "Quận Ba Đình",
+    "ward_code": "001",
+    "ward": "Phường Quán Thánh",
+    "ward_id": "00013",
+    "type": "Phường"
+  }
+]
