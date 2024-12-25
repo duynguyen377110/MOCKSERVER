@@ -1,0 +1,5 @@
+[
+  { "id": 1, "color": "#68E66C", "name": "Đủ" },
+  { "id": 2, "color": "#E85247", "name": "Cần nạp thêm" },
+  { "id": 3, "color": "#E1D05F", "name": "Sắp hết" }
+]

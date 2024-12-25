@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "deviceId": "KIOSK-HN-01",
+    "deviceId": 1,
     "deviceName": "Kiosk SimCard 1",
     "model": "SC-X100",
     "serialNumber": "SC12345X",
@@ -16,11 +16,17 @@
     "interactionCount": 150,
     "uptimeHours": 1200,
     "assignedTechnician": 1,
-    "products": 1
+    "productServices": [1,2],
+    "province": 1,
+    "district": 8,
+    "ward": 37,
+    "shopStore": 1,
+    "anydesk": "1111",
+    "password": "Npg91*00"
   },
   {
     "id": 2,
-    "deviceId": "KIOSK-HCM-01117",
+    "deviceId": 2,
     "deviceName": "Kiosk SimCard 2",
     "model": "SC-X200",
     "serialNumber": "SC56789Y",
@@ -35,12 +41,18 @@
     "interactionCount": 95,
     "uptimeHours": 800,
     "assignedTechnician": 2,
-    "products": 1
+    "productServices": [3],
+    "province": 1,
+    "district": 8,
+    "ward": 37,
+    "shopStore": 1,
+    "anydesk": "1111",
+    "password": "Npg91*00"
   },
 
   {
     "id": 3,
-    "deviceId": "KIOSK-HCM-01258",
+    "deviceId": 3,
     "deviceName": "Kiosk SimCard 3",
     "model": "SC-X300",
     "serialNumber": "SC98765Z",
@@ -55,11 +67,17 @@
     "interactionCount": 200,
     "uptimeHours": 1500,
     "assignedTechnician": 1,
-    "products": 1
+    "productServices": [4],
+    "province": 1,
+    "district": 8,
+    "ward": 37,
+    "shopStore": 1,
+    "anydesk": "1111",
+    "password": "Npg91*00"
   },
   {
     "id": 4,
-    "deviceId": "KIOSK-HCM-01817",
+    "deviceId": 4,
     "deviceName": "Kiosk SimCard 4",
     "model": "SC-X150",
     "serialNumber": "SC45678Q",
@@ -74,11 +92,17 @@
     "interactionCount": 10,
     "uptimeHours": 500,
     "assignedTechnician": 3,
-    "products": 1
+    "productServices": [5],
+    "province": 1,
+    "district": 8,
+    "ward": 37,
+    "shopStore": 1,
+    "anydesk": "1111",
+    "password": "Npg91*00"
   },
   {
     "id": 5,
-    "deviceId": "KIOSK-HCM-016817",
+    "deviceId": 5,
     "deviceName": "Kiosk SimCard 5",
     "model": "SC-X180",
     "serialNumber": "SC12399W",
@@ -93,11 +117,17 @@
     "interactionCount": 180,
     "uptimeHours": 1400,
     "assignedTechnician": 2,
-    "products": 1
+    "productServices": [6],
+    "province": 1,
+    "district": 8,
+    "ward": 37,
+    "shopStore": 1,
+    "anydesk": "1111",
+    "password": "Npg91*00"
   },
   {
     "id": 6,
-    "deviceId": "KIOSK-HCM-97517",
+    "deviceId": 6,
     "deviceName": "Kiosk SimCard 6",
     "model": "SC-X220",
     "serialNumber": "SC78901P",
@@ -112,11 +142,17 @@
     "interactionCount": 120,
     "uptimeHours": 1000,
     "assignedTechnician": 1,
-    "products": 1
+    "productServices": [7],
+    "province": 1,
+    "district": 8,
+    "ward": 37,
+    "shopStore": 1,
+    "anydesk": "1111",
+    "password": "Npg91*00"
   },
   {
     "id": 7,
-    "deviceId": "KIOSK-HCM-81214",
+    "deviceId": 7,
     "deviceName": "Kiosk SimCard 7",
     "model": "SC-X250",
     "serialNumber": "SC45633T",
@@ -131,11 +167,17 @@
     "interactionCount": 300,
     "uptimeHours": 1800,
     "assignedTechnician": 3,
-    "products": 1
+    "productServices": [8],
+    "province": 1,
+    "district": 8,
+    "ward": 37,
+    "shopStore": 1,
+    "anydesk": "1111",
+    "password": "Npg91*00"
   },
   {
     "id": 8,
-    "deviceId": "KIOSK-HCM-31442",
+    "deviceId": 8,
     "deviceName": "Kiosk SimCard 8",
     "model": "SC-X190",
     "serialNumber": "SC23456R",
@@ -150,11 +192,17 @@
     "interactionCount": 250,
     "uptimeHours": 1600,
     "assignedTechnician": 2,
-    "products": 1
+    "productServices": [9],
+    "province": 1,
+    "district": 8,
+    "ward": 37,
+    "shopStore": 1,
+    "anydesk": "1111",
+    "password": "Npg91*00"
   },
   {
     "id": 9,
-    "deviceId": "KIOSK-HCM-891327",
+    "deviceId": 9,
     "deviceName": "Kiosk SimCard 9",
     "model": "SC-X260",
     "serialNumber": "SC67890V",
@@ -169,11 +217,17 @@
     "interactionCount": 75,
     "uptimeHours": 700,
     "assignedTechnician": 2,
-    "products": 1
+    "productServices": [10],
+    "province": 1,
+    "district": 8,
+    "ward": 37,
+    "shopStore": 1,
+    "anydesk": "1111",
+    "password": "Npg91*00"
   },
   {
     "id": 10,
-    "deviceId": "KIOSK-HCM-79801",
+    "deviceId": 10,
     "deviceName": "Kiosk SimCard 10",
     "model": "SC-X170",
     "serialNumber": "SC34567U",
@@ -188,6 +242,12 @@
     "interactionCount": 400,
     "uptimeHours": 2000,
     "assignedTechnician": 1,
-    "products": 1
+    "productServices": [],
+    "province": 1,
+    "district": 8,
+    "ward": 37,
+    "shopStore": 1,
+    "anydesk": "1111",
+    "password": "Npg91*00"
   }
 ]

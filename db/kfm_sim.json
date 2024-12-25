@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "name": "Sim thường",
     "productId": "PROD-01",
     "productName": "Sim thường",
     "productType": "Sim",
@@ -10,6 +11,7 @@
   },
   {
     "id": 2,
+    "name": "Sim data",
     "productId": "PROD-02",
     "productName": "Sim data",
     "productType": "Sim",
@@ -19,6 +21,7 @@
   },
   {
     "id": 3,
+    "name": "Gói cước Data",
     "productId": "PROD-03",
     "productName": "Gói cước Data",
     "productType": "Gói cước",
@@ -28,6 +31,7 @@
   },
   {
     "id": 4,
+    "name": "Gói cước thoại",
     "productId": "PROD-04",
     "productName": "Gói cước thoại",
     "productType": "Gói cước",
@@ -37,6 +41,7 @@
   },
   {
     "id": 5,
+    "name": "Gói cước sms",
     "productId": "PROD-05",
     "productName": "Gói cước sms",
     "productType": "Gói cước",

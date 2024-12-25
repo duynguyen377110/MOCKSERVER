@@ -321,8 +321,7 @@ server.use('/kfm/kms', (req, res, next) => {
     next();
   }
 });
-
-server.use('/common/info', (req, res, next) => {
+server.use('/rm/cl', (req, res, next) => {
   if (req.method === 'GET' && req.query.page && req.query.limit) {
     const page = parseInt(req.query.page, 10) || 1;
     const limit = parseInt(req.query.limit, 10) || 10;
@@ -344,6 +343,122 @@ server.use('/common/info', (req, res, next) => {
         const filterValue = req.query[key];
         filteredData = filteredData.filter(item =>
           String(item[key]).toLowerCase().includes(String(filterValue).toLowerCase()),
+        );
+      }
+    });
+
+    if (sort) {
+      filteredData = filteredData.sort((a, b) => {
+        if (a[sort] < b[sort]) {
+          return order === 'ASC' ? -1 : 1;
+        }
+        if (a[sort] > b[sort]) {
+          return order === 'ASC' ? 1 : -1;
+        }
+        return 0;
+      });
+    }
+
+    const totalItems = filteredData.length;
+    const totalPages = Math.ceil(totalItems / limit);
+    const startIndex = (page - 1) * limit;
+    const endIndex = startIndex + limit;
+    const paginatedData = filteredData.slice(startIndex, endIndex);
+
+    res.status(200).json({
+      data: paginatedData,
+      pagination: {
+        currentPage: page,
+        perPage: limit,
+        totalItems,
+        totalPages,
+      },
+    });
+  } else {
+    next();
+  }
+});
+server.use('/kfm/ms', (req, res, next) => {
+  if (req.method === 'GET' && req.query.page && req.query.limit) {
+    const page = parseInt(req.query.page, 10) || 1;
+    const limit = parseInt(req.query.limit, 10) || 10;
+    const sort = req.query.sort || null;
+    const order = (req.query.order || 'DESC').toUpperCase();
+    const collectionName = req.path.slice(1);
+
+    // Access the collection from the database
+    const collection = router.db.get(collectionName).value();
+
+    if (!collection) {
+      return res.status(404).json({ error: 'Resource not found' });
+    }
+
+    let filteredData = [...collection];
+
+    Object.keys(req.query).forEach(key => {
+      if (key !== 'page' && key !== 'limit' && key !== 'sort' && key !== 'order') {
+        const filterValue = req.query[key];
+        filteredData = filteredData.filter(item =>
+          String(item[key]).toLowerCase().includes(String(filterValue).toLowerCase()),
+        );
+      }
+    });
+
+    if (sort) {
+      filteredData = filteredData.sort((a, b) => {
+        if (a[sort] < b[sort]) {
+          return order === 'ASC' ? -1 : 1;
+        }
+        if (a[sort] > b[sort]) {
+          return order === 'ASC' ? 1 : -1;
+        }
+        return 0;
+      });
+    }
+
+    const totalItems = filteredData.length;
+    const totalPages = Math.ceil(totalItems / limit);
+    const startIndex = (page - 1) * limit;
+    const endIndex = startIndex + limit;
+    const paginatedData = filteredData.slice(startIndex, endIndex);
+
+    res.status(200).json({
+      data: paginatedData,
+      pagination: {
+        currentPage: page,
+        perPage: limit,
+        totalItems,
+        totalPages,
+      },
+    });
+  } else {
+    next();
+  }
+});
+
+server.use('/common/info', (req, res, next) => {
+  if (req.method === 'GET' && req.query.page && req.query.limit) {
+    const page = parseInt(req.query.page, 10) || 1;
+    const limit = parseInt(req.query.limit, 10) || 10;
+    const sort = req.query.sort || null;
+    const order = (req.query.order || 'DESC').toUpperCase();
+    const collectionName = req.path.slice(1);
+
+    // Access the collection from the database
+    const collection = router.db.get(collectionName).value();
+
+    if (!collection) {
+      return res.status(404).json({ error: 'Resource not found' });
+    }
+
+    let filteredData = [...collection];
+
+    Object.keys(req.query).forEach(key => {
+      if (key !== 'page' && key !== 'limit' && key !== 'sort' && key !== 'order') {
+        const filterValue = req.query[key];
+        const regex = new RegExp(`^${String(filterValue).toLowerCase()}$`, 'i');
+        filteredData = filteredData.filter(item =>
+          regex.test(String(item[key]).toLowerCase())
         );
       }
     });
@@ -404,6 +519,8 @@ server.use('/kfm/sim', router);
 server.use('/crm/mp', router);
 server.use('/kfm/tvr', router);
 server.use('/kfm/kms', router);
+server.use('/kfm/ms', router);
+server.use('/rm/cl', router);
 
 const PORT = 3000;
 server.listen(PORT, () => {

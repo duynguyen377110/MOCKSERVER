@@ -14,7 +14,6 @@
     "province": 1,
     "district": 8,
     "ward": 37
-
   },
   {
     "id": 2,
@@ -31,7 +30,6 @@
     "province": 1,
     "district": 8,
     "ward": 37
-
   },
   {
     "id": 3,
@@ -48,7 +46,6 @@
     "province": 1,
     "district": 8,
     "ward": 37
-
   },
   {
     "id": 4,
@@ -65,7 +62,6 @@
     "province": 1,
     "district": 8,
     "ward": 37
-
   },
   {
     "id": 5,
@@ -82,7 +78,6 @@
     "province": 1,
     "district": 8,
     "ward": 37
-
   },
   {
     "id": 6,
@@ -99,7 +94,6 @@
     "province": 1,
     "district": 8,
     "ward": 37
-
   },
   {
     "id": 7,
@@ -116,7 +110,6 @@
     "province": 1,
     "district": 8,
     "ward": 37
-
   },
   {
     "id": 8,
@@ -133,7 +126,6 @@
     "province": 1,
     "district": 8,
     "ward": 37
-
   },
   {
     "id": 9,
@@ -150,7 +142,6 @@
     "province": 1,
     "district": 8,
     "ward": 37
-
   },
   {
     "id": 10,
@@ -167,6 +158,5 @@
     "province": 1,
     "district": 8,
     "ward": 37
-
   }
 ]

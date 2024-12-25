@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "name": "VTL001 - Viettel Store A",
     "storeId": "VTL001",
     "storeName": "Viettel Store A",
     "storePhone": "088888734",
@@ -14,6 +15,7 @@
   },
   {
     "id": 2,
+    "name": "VTL002 - Viettel Store B",
     "storeId": "VTL002",
     "storeName": "Viettel Store B",
     "storePhone": "088888735",
@@ -27,6 +29,7 @@
   },
   {
     "id": 3,
+    "name": "VTL003 - Viettel Store C",
     "storeId": "VTL003",
     "storeName": "Viettel Store C",
     "storePhone": "088888736",
@@ -40,6 +43,7 @@
   },
   {
     "id": 4,
+    "name": "VTL004 - Viettel Store D",
     "storeId": "VTL004",
     "storeName": "Viettel Store D",
     "storePhone": "088888737",
@@ -53,6 +57,7 @@
   },
   {
     "id": 5,
+    "name": "VTL005 - Viettel Store E",
     "storeId": "VTL005",
     "storeName": "Viettel Store E",
     "storePhone": "088888738",

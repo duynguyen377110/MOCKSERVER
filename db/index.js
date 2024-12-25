@@ -12,6 +12,7 @@ const kfm_sim = require('./kfm_sim.json');
 const kfm_tvr = require('./kfm_tvr.json');
 const kfm_tvr_payMT = require('./kfm_tvr_payMT.json');
 const kfm_tvr_txnType = require('./kfm_tvr_txnType.json');
+const rm_cl = require('./rm_cl.json');
 const kms_logtype = require('./kms_logtype.json');
 const kms_severity = require('./kms_severity.json');
 const models = require('./model.json');
@@ -29,10 +30,12 @@ const conf_am = require("./conf_am.json");
 const common_status = require("./common_status.json");
 const common_sectors = require("./common_sectors.json");
 const common_positions = require("./common_positions.json");
+const city = require('./city.json')
+const district = require('./district.json')
+const ward = require('./ward.json')
+const ms = require('./ms.json')
+const ms_status = require('./ms_status.json')
 const conf_sm = require("./conf_sm.json");
-const city = require("./city.json");
-const district = require("./district.json");
-const ward = require("./ward.json");
 const ipm = require("./conf_ipm.json");
 const ipm_history = require("./conf_ipm_history.json");
 const device_location = require("./device_location.json");
@@ -71,10 +74,13 @@ module.exports = function () {
     kms: k_status_log,
     provinces: provinces,
     am: conf_am,
-    sm: conf_sm,
+    cl: rm_cl,
     city: city,
     district: district,
     ward: ward,
+    ms: ms,
+    ms_status: ms_status,
+    sm: conf_sm,
     ipm: ipm,
     ipm_history: ipm_history,
     device_location: device_location,
