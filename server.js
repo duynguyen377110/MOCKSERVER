@@ -112,10 +112,22 @@ server.use('/kfm/kim', (req, res, next) => {
 
     Object.keys(req.query).forEach(key => {
       if (key !== 'page' && key !== 'limit' && key !== 'sort' && key !== 'order') {
-        const filterValue = req.query[key];
-        filteredData = filteredData.filter(item =>
-          String(item[key]).toLowerCase().includes(String(filterValue).toLowerCase()),
-        );
+        
+        let querys = {}
+        Object.assign(querys, req.query);
+        delete querys?.page;
+        delete querys.limit;
+        delete querys.sort;
+        delete querys.order;
+
+        // const filterValue = req.query[key];
+        // filteredData = filteredData.filter(item =>
+        //   String(item[key]).toLowerCase().includes(String(filterValue).toLowerCase()),
+        // );
+
+        filteredData = filteredData.filter(item => {
+          return Object.entries(querys).some(([key, value]) => item[key].toString().toLowerCase().includes(String(value).toLowerCase()));
+        });
       }
     });
 
