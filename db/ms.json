@@ -9,11 +9,11 @@
     "detailed_address": "123 Nguyễn Văn Cừ",
     "shop_name": "Shop ABC",
     "remaining_quantity": 10,
-    "number_recharges": 5,
-    "last_recharge_quantity": 50,
-    "last_recharge_date": "2024-12-17",
-    "notification_status": 2,
-    "last_updated_by": "Nguyen Van A"
+    "number_recharges": 3,
+    "last_recharge_quantity": 55,
+    "last_recharge_date": "2024-12-15",
+    "notification_status": 9,
+    "last_updated_by": "Nguyen Van C"
   },
   {
     "id": 2,
@@ -25,11 +25,11 @@
     "detailed_address": "456 Lê Lợi",
     "shop_name": "Shop XYZ",
     "remaining_quantity": 20,
-    "number_recharges": 4,
-    "last_recharge_quantity": 100,
-    "last_recharge_date": "2024-12-16",
-    "notification_status": 1,
-    "last_updated_by": "Nguyen Van B"
+    "number_recharges": 3,
+    "last_recharge_quantity": 50,
+    "last_recharge_date": "2024-12-14",
+    "notification_status": 10,
+    "last_updated_by": "Nguyen Van E"
   },
   {
     "id": 3,
@@ -41,11 +41,11 @@
     "detailed_address": "789 Đinh Tiên Hoàng",
     "shop_name": "Shop DEF",
     "remaining_quantity": 9,
-    "number_recharges": 5,
-    "last_recharge_quantity": 30,
-    "last_recharge_date": "2024-12-15",
-    "notification_status": 2,
-    "last_updated_by": "Nguyen Van C"
+    "number_recharges": 3,
+    "last_recharge_quantity": 50,
+    "last_recharge_date": "2024-12-13",
+    "notification_status": 9,
+    "last_updated_by": "Nguyen Van F"
   },
   {
     "id": 4,
@@ -57,11 +57,11 @@
     "detailed_address": "101 Lý Tự Trọng",
     "shop_name": "Shop GHI",
     "remaining_quantity": 15,
-    "number_recharges": 10,
-    "last_recharge_quantity": 60,
-    "last_recharge_date": "2024-12-14",
-    "notification_status": 2,
-    "last_updated_by": "Nguyen Van D"
+    "number_recharges": 3,
+    "last_recharge_quantity": 35,
+    "last_recharge_date": "2024-12-12",
+    "notification_status": 9,
+    "last_updated_by": "Nguyen Van H"
   },
   {
     "id": 5,
@@ -74,10 +74,10 @@
     "shop_name": "Shop JKL",
     "remaining_quantity": 8,
     "number_recharges": 3,
-    "last_recharge_quantity": 40,
-    "last_recharge_date": "2024-12-13",
-    "notification_status": 1,
-    "last_updated_by": "Nguyen Van E"
+    "last_recharge_quantity": 18,
+    "last_recharge_date": "2024-12-11",
+    "notification_status": 10,
+    "last_updated_by": "Nguyen Van J"
   },
   {
     "id": 6,
@@ -89,10 +89,10 @@
     "detailed_address": "303 Nguyễn Văn Linh",
     "shop_name": "Shop MNO",
     "remaining_quantity": 25,
-    "number_recharges": 8,
-    "last_recharge_quantity": 90,
-    "last_recharge_date": "2024-12-12",
-    "notification_status": 3,
-    "last_updated_by": "Nguyen Van F"
+    "number_recharges": 3,
+    "last_recharge_quantity": 75,
+    "last_recharge_date": "2024-12-10",
+    "notification_status": 11,
+    "last_updated_by": "Nguyen Van L"
   }
 ]

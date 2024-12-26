@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "kiosk_id": "kiosk-001",
+    "kiosk_name": "Kiosk A",
+    "recharge_date": "2024-12-17",
+    "recharge_quantity": 50,
+    "added_by": "Nguyen Van A"
+  },
+  {
+    "id": 2,
+    "kiosk_id": "kiosk-001",
+    "kiosk_name": "Kiosk A",
+    "recharge_date": "2024-12-16",
+    "recharge_quantity": 45,
+    "added_by": "Nguyen Van B"
+  },
+  {
+    "id": 3,
+    "kiosk_id": "kiosk-001",
+    "kiosk_name": "Kiosk A",
+    "recharge_date": "2024-12-15",
+    "recharge_quantity": 55,
+    "added_by": "Nguyen Van C"
+  },
+  {
+    "id": 4,
+    "kiosk_id": "kiosk-002",
+    "kiosk_name": "Kiosk B",
+    "recharge_date": "2024-12-16",
+    "recharge_quantity": 40,
+    "added_by": "Nguyen Van B"
+  },
+  {
+    "id": 5,
+    "kiosk_id": "kiosk-002",
+    "kiosk_name": "Kiosk B",
+    "recharge_date": "2024-12-15",
+    "recharge_quantity": 35,
+    "added_by": "Nguyen Van D"
+  },
+  {
+    "id": 6,
+    "kiosk_id": "kiosk-002",
+    "kiosk_name": "Kiosk B",
+    "recharge_date": "2024-12-14",
+    "recharge_quantity": 50,
+    "added_by": "Nguyen Van E"
+  },
+  {
+    "id": 7,
+    "kiosk_id": "kiosk-003",
+    "kiosk_name": "Kiosk C",
+    "recharge_date": "2024-12-15",
+    "recharge_quantity": 60,
+    "added_by": "Nguyen Van C"
+  },
+  {
+    "id": 8,
+    "kiosk_id": "kiosk-003",
+    "kiosk_name": "Kiosk C",
+    "recharge_date": "2024-12-14",
+    "recharge_quantity": 65,
+    "added_by": "Nguyen Van D"
+  },
+  {
+    "id": 9,
+    "kiosk_id": "kiosk-003",
+    "kiosk_name": "Kiosk C",
+    "recharge_date": "2024-12-13",
+    "recharge_quantity": 50,
+    "added_by": "Nguyen Van F"
+  },
+  {
+    "id": 10,
+    "kiosk_id": "kiosk-004",
+    "kiosk_name": "Kiosk D",
+    "recharge_date": "2024-12-14",
+    "recharge_quantity": 30,
+    "added_by": "Nguyen Van D"
+  },
+  {
+    "id": 11,
+    "kiosk_id": "kiosk-004",
+    "kiosk_name": "Kiosk D",
+    "recharge_date": "2024-12-13",
+    "recharge_quantity": 25,
+    "added_by": "Nguyen Van G"
+  },
+  {
+    "id": 12,
+    "kiosk_id": "kiosk-004",
+    "kiosk_name": "Kiosk D",
+    "recharge_date": "2024-12-12",
+    "recharge_quantity": 35,
+    "added_by": "Nguyen Van H"
+  },
+  {
+    "id": 13,
+    "kiosk_id": "kiosk-005",
+    "kiosk_name": "Kiosk E",
+    "recharge_date": "2024-12-13",
+    "recharge_quantity": 20,
+    "added_by": "Nguyen Van E"
+  },
+  {
+    "id": 14,
+    "kiosk_id": "kiosk-005",
+    "kiosk_name": "Kiosk E",
+    "recharge_date": "2024-12-12",
+    "recharge_quantity": 22,
+    "added_by": "Nguyen Van I"
+  },
+  {
+    "id": 15,
+    "kiosk_id": "kiosk-005",
+    "kiosk_name": "Kiosk E",
+    "recharge_date": "2024-12-11",
+    "recharge_quantity": 18,
+    "added_by": "Nguyen Van J"
+  },
+  {
+    "id": 16,
+    "kiosk_id": "kiosk-006",
+    "kiosk_name": "Kiosk F",
+    "recharge_date": "2024-12-12",
+    "recharge_quantity": 70,
+    "added_by": "Nguyen Van F"
+  },
+  {
+    "id": 17,
+    "kiosk_id": "kiosk-006",
+    "kiosk_name": "Kiosk F",
+    "recharge_date": "2024-12-11",
+    "recharge_quantity": 65,
+    "added_by": "Nguyen Van K"
+  },
+  {
+    "id": 18,
+    "kiosk_id": "kiosk-006",
+    "kiosk_name": "Kiosk F",
+    "recharge_date": "2024-12-10",
+    "recharge_quantity": 75,
+    "added_by": "Nguyen Van L"
+  }
+]

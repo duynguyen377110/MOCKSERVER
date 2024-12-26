@@ -7,6 +7,7 @@
   { "id": 6, "value": "PENDING", "name": "Đang xử lý", "color": "#E1D05F" },
   { "id": 7, "value": "FAILED", "name": "Thất bại", "color": "#E85247" },
   { "id": 8, "value": "RESOLVED", "name": "Hoàn thành", "color": "#4e7a50" },
-  { "id": 9, "value": "NEEDRECHARGE", "name": "Cần nạp thêm", "color": "#68c0e6" },
-  { "id": 10, "value": "FULL", "name": "Đủ", "color": "#496978" }
+  { "id": 9, "value": "NEEDRECHARGE", "name": "Cần nạp thêm", "color": "#E85247" },
+  { "id": 10, "value": "FULL", "name": "Đủ", "color": "#4e7a50" },
+  { "id": 11, "value": "LOW", "name": "Sắp hết", "color": "#E1D05F" }
 ]

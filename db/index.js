@@ -38,6 +38,7 @@ const ms_status = require('./ms_status.json')
 const conf_sm = require("./conf_sm.json");
 const ipm = require("./conf_ipm.json");
 const ipm_history = require("./conf_ipm_history.json");
+const ms_history = require("./ms_history.json");
 const device_location = require("./device_location.json");
 
 module.exports = function () {
@@ -83,6 +84,7 @@ module.exports = function () {
     sm: conf_sm,
     ipm: ipm,
     ipm_history: ipm_history,
+    ms_history: ms_history,
     device_location: device_location,
   };
 };

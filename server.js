@@ -453,13 +453,32 @@ server.use('/common/info', (req, res, next) => {
 
     let filteredData = [...collection];
 
-    Object.keys(req.query).forEach(key => {
-      if (key !== 'page' && key !== 'limit' && key !== 'sort' && key !== 'order') {
-        const filterValue = req.query[key];
-        const regex = new RegExp(`^${String(filterValue).toLowerCase()}$`, 'i');
-        filteredData = filteredData.filter(item =>
-          regex.test(String(item[key]).toLowerCase())
-        );
+    // Object.keys(req.query).forEach(key => {
+    //   if (key !== 'page' && key !== 'limit' && key !== 'sort' && key !== 'order') {
+    //     const filterValue = req.query[key];
+    //     const regex = new RegExp(`^${String(filterValue).toLowerCase()}$`, 'i');
+    //     filteredData = filteredData.filter(item =>
+    //       regex.test(String(item[key]).toLowerCase())
+    //     );
+    //   }
+    // });
+    const { q } = req.query;
+    // Tìm kiếm theo 'q' (tìm trong tất cả các trường)
+    if (q) {
+      const searchTerm = String(q).toLowerCase();
+      filteredData = filteredData.filter(item => {
+        return Object.values(item).some(value => {
+          if (value && typeof value === 'string') {
+            return value.toLowerCase().includes(searchTerm);
+          }
+          return false;
+        });
+      });
+    }
+    Object.entries(req.query).forEach(([key, filterValue]) => {
+      if (!['page', 'limit', 'sort', 'order', 'q'].includes(key)) {
+        const regex = new RegExp(String(filterValue).toLowerCase(), 'i');
+        filteredData = filteredData.filter(item => item[key] && regex.test(String(item[key]).toLowerCase()));
       }
     });
 
