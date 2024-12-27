@@ -1,11 +1,11 @@
-const assigned = require('./assigned.json');
-const availability = require('./availability.json');
-const commands = require('./commands.json');
-const currency = require('./currency.json');
-const customers = require('./customers.json');
-const device = require('./device.json');
-const hardware = require('./hardware.json');
-const kfm_kim = require('./kfm_kim.json');
+const assigned = require("./assigned.json");
+const availability = require("./availability.json");
+const commands = require("./commands.json");
+const currency = require("./currency.json");
+const customers = require("./customers.json");
+const device = require("./device.json");
+const hardware = require("./hardware.json");
+const kfm_kim = require("./kfm_kim.json");
 const kfm_kim_products = require("./kfm_kim_products.json");
 const k_status_log = require('./kfm_kms.json');
 const kfm_sim = require('./kfm_sim.json');
@@ -40,6 +40,10 @@ const ipm = require("./conf_ipm.json");
 const ipm_history = require("./conf_ipm_history.json");
 const ms_history = require("./ms_history.json");
 const device_location = require("./device_location.json");
+const txn_prepaid_sim = require("./txn_prepaid_sim.json");
+const txn_topup_postpaid = require("./txn_topup_postpaid.json");
+const txn_topup_prepaid = require("./txn_topup_prepaid.json");
+const txn_all = require("./txn_all.json");
 
 module.exports = function () {
   return {
@@ -86,5 +90,9 @@ module.exports = function () {
     ipm_history: ipm_history,
     ms_history: ms_history,
     device_location: device_location,
+    txn_topup_postpaid: txn_topup_postpaid,
+    txn_topup_prepaid: txn_topup_prepaid,
+    txn_prepaid_sim: txn_prepaid_sim,
+    txn_all : txn_all
   };
 };

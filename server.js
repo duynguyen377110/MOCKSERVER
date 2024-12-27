@@ -180,13 +180,44 @@ server.use('/kfm/tvr', (req, res, next) => {
     let filteredData = [...collection];
 
     Object.keys(req.query).forEach(key => {
-      if (key !== 'page' && key !== 'limit' && key !== 'sort' && key !== 'order') {
+      if (key !== 'page' && key !== 'limit' && key !== 'sort' && key !== 'order'&& key !== 'endDate' && key !== 'startDate') {
         const filterValue = req.query[key];
         filteredData = filteredData.filter(item =>
           String(item[key]).toLowerCase().includes(String(filterValue).toLowerCase()),
         );
       }
     });
+    
+    const { startDate, endDate, date_field = 'timestamp' } = req.query;
+    // Chuyển startDate và endDate thành đối tượng Date (nếu có)
+    const startDateObj = startDate ? new Date(startDate).getTime() : null;
+    const endDateObj = endDate ? new Date(endDate).getTime() : null;
+    
+    if (startDateObj || endDateObj) {
+      filteredData = filteredData.filter(item => {
+        const itemDate = new Date(item[date_field]).getTime(); // Sử dụng trường ngày động
+
+        // Kiểm tra nếu chỉ có startDate
+        if (startDateObj && !endDateObj && itemDate < startDateObj) {
+          return false;
+        }
+
+        // Kiểm tra nếu chỉ có endDate
+        if (!startDateObj && endDateObj && itemDate > endDateObj) {
+          return false;
+        }
+
+        // Kiểm tra nếu có cả startDate và endDate
+        if (startDateObj && endDateObj) {
+          if (itemDate < startDateObj || itemDate > endDateObj) {
+            return false;
+          }
+        }
+
+        return true;
+      });
+    }
+    console.log(filteredData)
 
     if (sort) {
       filteredData = filteredData.sort((a, b) => {
@@ -505,7 +536,6 @@ server.use('/common/info', (req, res, next) => {
         return 0;
       });
     }
-
     const totalItems = filteredData.length;
     const totalPages = Math.ceil(totalItems / limit);
     const startIndex = (page - 1) * limit;
