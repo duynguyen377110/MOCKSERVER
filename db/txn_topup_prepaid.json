@@ -21,7 +21,7 @@
   },
   {
     "id": "prepaid_2",
-    "paymentStatus": "PENDING",
+    "paymentStatus": "SUCCESS",
     "transactionId": "TXN-307",
     "deviceId": "KIOSK-005",
     "deviceName": "Kiosk Trung tâm E",
@@ -61,7 +61,7 @@
   },
   {
     "id": "prepaid_4",
-    "paymentStatus": "PENDING",
+    "paymentStatus": "PENDING_PAYMENT",
     "transactionId": "TXN-309",
     "deviceId": "KIOSK-007",
     "deviceName": "Kiosk Trung tâm G",

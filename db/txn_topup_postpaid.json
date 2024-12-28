@@ -21,7 +21,7 @@
   },
   {
     "id": "postpaid_2",
-    "paymentStatus": "PENDING",
+    "paymentStatus": "SUCCESS",
     "transactionId": "TXN-202",
     "deviceId": "KIOSK-002",
     "deviceName": "Kiosk Trung tâm B",
@@ -61,7 +61,7 @@
   },
   {
     "id": "postpaid_4",
-    "paymentStatus": "PENDING",
+    "paymentStatus": "REFUND_PENDING",
     "transactionId": "TXN-204",
     "deviceId": "KIOSK-001",
     "deviceName": "Kiosk Trung tâm A",

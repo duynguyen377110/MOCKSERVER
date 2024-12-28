@@ -178,21 +178,31 @@ server.use('/kfm/tvr', (req, res, next) => {
     }
 
     let filteredData = [...collection];
-
-    Object.keys(req.query).forEach(key => {
-      if (key !== 'page' && key !== 'limit' && key !== 'sort' && key !== 'order'&& key !== 'endDate' && key !== 'startDate') {
-        const filterValue = req.query[key];
-        filteredData = filteredData.filter(item =>
-          String(item[key]).toLowerCase().includes(String(filterValue).toLowerCase()),
-        );
+console.log(req)
+    const { q } = req.query;
+    // Tìm kiếm theo 'q' (tìm trong tất cả các trường)
+    if (q) {
+      const searchTerm = String(q).toLowerCase();
+      filteredData = filteredData.filter(item => {
+        return Object.values(item).some(value => {
+          if (value && typeof value === 'string') {
+            return value.toLowerCase().includes(searchTerm);
+          }
+          return false;
+        });
+      });
+    }
+    console.log(filteredData)
+    Object.entries(req.query).forEach(([key, filterValue]) => {
+      if (!['page', 'limit', 'sort', 'order', 'q', 'startDate', 'endDate', 'dateField'].includes(key)) {
+        const regex = new RegExp(String(filterValue).toLowerCase(), 'i');
+        filteredData = filteredData.filter(item => item[key] && regex.test(String(item[key]).toLowerCase()));
       }
     });
-    console.log(req.query)
     const { startDate, endDate, date_field = 'timestamp' } = req.query;
     // Chuyển startDate và endDate thành đối tượng Date (nếu có)
     const startDateObj = startDate ? new Date(startDate).getTime() : null;
     const endDateObj = endDate ? new Date(endDate).getTime() : null;
-    console.log(filteredData)
     if (startDateObj || endDateObj) {
       filteredData = filteredData.filter(item => {
         const itemDate = new Date(item[date_field]).getTime(); // Sử dụng trường ngày động
@@ -217,7 +227,7 @@ server.use('/kfm/tvr', (req, res, next) => {
         return true;
       });
     }
-    console.log(filteredData)
+
 
     if (sort) {
       filteredData = filteredData.sort((a, b) => {
@@ -230,7 +240,7 @@ server.use('/kfm/tvr', (req, res, next) => {
         return 0;
       });
     }
-
+console.log(filteredData)
     const totalItems = filteredData.length;
     const totalPages = Math.ceil(totalItems / limit);
     const startIndex = (page - 1) * limit;
@@ -619,7 +629,7 @@ server.use('/kfm/kms', router);
 server.use('/kfm/ms', router);
 server.use('/rm/cl', router);
 
-const PORT = 3000;
+const PORT = 1234;
 server.listen(PORT, () => {
   console.log(`JSON Server is running on http://localhost:${PORT}`);
 });

@@ -44,6 +44,8 @@ const txn_prepaid_sim = require("./txn_prepaid_sim.json");
 const txn_topup_postpaid = require("./txn_topup_postpaid.json");
 const txn_topup_prepaid = require("./txn_topup_prepaid.json");
 const txn_all = require("./txn_all.json");
+const payment_status = require("./payment_status.json");
+const kiosk_status = require("./kiosk_status.json");
 
 module.exports = function () {
   return {
@@ -93,6 +95,8 @@ module.exports = function () {
     txn_topup_postpaid: txn_topup_postpaid,
     txn_topup_prepaid: txn_topup_prepaid,
     txn_prepaid_sim: txn_prepaid_sim,
-    txn_all : txn_all
+    txn_all : txn_all,
+    payment_status: payment_status,
+    kiosk_status: kiosk_status
   };
 };

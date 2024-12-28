@@ -26,7 +26,7 @@
     "id": 1
   },
   {
-    "paymentStatus": "PENDING",
+    "paymentStatus": "PENDING_PAYMENT",
     "transactionId": "TXN-002",
     "deviceId": "KIOSK-002",
     "deviceName": "Kiosk Trung tâm B",
@@ -156,7 +156,7 @@
     "id": 6
   },
   {
-    "paymentStatus": "PENDING",
+    "paymentStatus": "REFUND_PENDING",
     "transactionId": "TXN-007",
     "deviceId": "KIOSK-007",
     "deviceName": "Kiosk Trung tâm G",
@@ -182,7 +182,7 @@
     "id": 7
   },
   {
-    "paymentStatus": "PENDING",
+    "paymentStatus": "SUCCESS",
     "transactionId": "TXN-008",
     "deviceId": "KIOSK-008",
     "deviceName": "Kiosk Trung tâm H",
