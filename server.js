@@ -187,12 +187,12 @@ server.use('/kfm/tvr', (req, res, next) => {
         );
       }
     });
-    
+    console.log(req.query)
     const { startDate, endDate, date_field = 'timestamp' } = req.query;
     // Chuyển startDate và endDate thành đối tượng Date (nếu có)
     const startDateObj = startDate ? new Date(startDate).getTime() : null;
     const endDateObj = endDate ? new Date(endDate).getTime() : null;
-    
+    console.log(filteredData)
     if (startDateObj || endDateObj) {
       filteredData = filteredData.filter(item => {
         const itemDate = new Date(item[date_field]).getTime(); // Sử dụng trường ngày động
@@ -519,11 +519,47 @@ server.use('/common/info', (req, res, next) => {
       });
     }
     Object.entries(req.query).forEach(([key, filterValue]) => {
-      if (!['page', 'limit', 'sort', 'order', 'q'].includes(key)) {
+      if (!['page', 'limit', 'sort', 'order', 'q', 'startDate', 'endDate', 'dateField'].includes(key)) {
         const regex = new RegExp(String(filterValue).toLowerCase(), 'i');
         filteredData = filteredData.filter(item => item[key] && regex.test(String(item[key]).toLowerCase()));
       }
     });
+    // Tìm kiếm theo 'startDate' va 'endDate'
+    const { startDate, endDate } = req.query;
+    const config = {
+      ipm: {
+        pathname: '/ipm',
+        date_field: 'lastRechargeDate',
+      },
+      // Thêm các object con khác ở đây
+    };
+    let date_field = null;
+    for (const key in config) {
+      if (config[key].pathname && req._parsedUrl.pathname.includes(config[key].pathname)) {
+        date_field = config[key].date_field;
+        break;
+      }
+    }
+    const startDateObj = startDate ? new Date(startDate) : null;
+    const endDateObj = endDate ? new Date(endDate) : null;
+
+    if (startDateObj || endDateObj) {
+      filteredData = filteredData.filter(item => {
+        const itemDate = new Date(item[date_field]);
+        if (startDateObj && !endDateObj && itemDate < startDateObj) {
+          return false;
+        }
+        if (!startDateObj && endDateObj && itemDate > endDateObj) {
+          return false;
+        }
+        if (startDateObj && endDateObj) {
+          if (itemDate < startDateObj || itemDate > endDateObj) {
+            return false;
+          }
+        }
+        return true;
+      });
+    }
 
     if (sort) {
       filteredData = filteredData.sort((a, b) => {
@@ -583,7 +619,7 @@ server.use('/kfm/kms', router);
 server.use('/kfm/ms', router);
 server.use('/rm/cl', router);
 
-const PORT = 3000;
+const PORT = 1234;
 server.listen(PORT, () => {
   console.log(`JSON Server is running on http://localhost:${PORT}`);
 });
