@@ -178,7 +178,7 @@ server.use('/kfm/tvr', (req, res, next) => {
     }
 
     let filteredData = [...collection];
-console.log(req)
+
     const { q } = req.query;
     // Tìm kiếm theo 'q' (tìm trong tất cả các trường)
     if (q) {
@@ -192,7 +192,7 @@ console.log(req)
         });
       });
     }
-    console.log(filteredData)
+
     Object.entries(req.query).forEach(([key, filterValue]) => {
       if (!['page', 'limit', 'sort', 'order', 'q', 'startDate', 'endDate', 'dateField'].includes(key)) {
         const regex = new RegExp(String(filterValue).toLowerCase(), 'i');
@@ -240,7 +240,7 @@ console.log(req)
         return 0;
       });
     }
-console.log(filteredData)
+
     const totalItems = filteredData.length;
     const totalPages = Math.ceil(totalItems / limit);
     const startIndex = (page - 1) * limit;
@@ -448,14 +448,65 @@ server.use('/kfm/ms', (req, res, next) => {
 
     let filteredData = [...collection];
 
-    Object.keys(req.query).forEach(key => {
-      if (key !== 'page' && key !== 'limit' && key !== 'sort' && key !== 'order') {
-        const filterValue = req.query[key];
-        filteredData = filteredData.filter(item =>
-          String(item[key]).toLowerCase().includes(String(filterValue).toLowerCase()),
-        );
+    const { q } = req.query;
+    // Tìm kiếm theo 'q' (tìm trong tất cả các trường)
+    if (q) {
+      const searchTerm = String(q).toLowerCase();
+      filteredData = filteredData.filter(item => {
+        return Object.values(item).some(value => {
+          if (value && typeof value === 'string') {
+            return value.toLowerCase().includes(searchTerm);
+          }
+          return false;
+        });
+      });
+    }
+    Object.entries(req.query).forEach(([key, filterValue]) => {
+      if (!['page', 'limit', 'sort', 'order', 'q', 'startDate', 'endDate', 'dateField'].includes(key)) {
+        const regex = new RegExp(String(filterValue).toLowerCase(), 'i');
+        filteredData = filteredData.filter(item => item[key] && regex.test(String(item[key]).toLowerCase()));
       }
     });
+    // Tìm kiếm theo 'startDate' va 'endDate'
+    const { startDate, endDate } = req.query;
+    const config = {
+      ipm: {
+        pathname: '/ipm',
+        date_field: 'lastRechargeDate',
+      },
+      ms: {
+        pathname: '/ms',
+        date_field: 'last_recharge_date',
+      },
+      // Thêm các object con khác ở đây
+    };
+    let date_field = null;
+    for (const key in config) {
+      if (config[key].pathname && req._parsedUrl.pathname.includes(config[key].pathname)) {
+        date_field = config[key].date_field;
+        break;
+      }
+    }
+    const startDateObj = startDate ? new Date(startDate) : null;
+    const endDateObj = endDate ? new Date(endDate) : null;
+
+    if (startDateObj || endDateObj) {
+      filteredData = filteredData.filter(item => {
+        const itemDate = new Date(item[date_field]);
+        if (startDateObj && !endDateObj && itemDate < startDateObj) {
+          return false;
+        }
+        if (!startDateObj && endDateObj && itemDate > endDateObj) {
+          return false;
+        }
+        if (startDateObj && endDateObj) {
+          if (itemDate < startDateObj || itemDate > endDateObj) {
+            return false;
+          }
+        }
+        return true;
+      });
+    }
 
     if (sort) {
       filteredData = filteredData.sort((a, b) => {
@@ -468,7 +519,6 @@ server.use('/kfm/ms', (req, res, next) => {
         return 0;
       });
     }
-
     const totalItems = filteredData.length;
     const totalPages = Math.ceil(totalItems / limit);
     const startIndex = (page - 1) * limit;
@@ -540,6 +590,10 @@ server.use('/common/info', (req, res, next) => {
       ipm: {
         pathname: '/ipm',
         date_field: 'lastRechargeDate',
+      },
+      ms: {
+        pathname: '/ms',
+        date_field: 'last_recharge_date',
       },
       // Thêm các object con khác ở đây
     };

@@ -1,17 +1,26 @@
-const assigned = require("./assigned.json");
-const availability = require("./availability.json");
-const commands = require("./commands.json");
-const currency = require("./currency.json");
-const customers = require("./customers.json");
-const device = require("./device.json");
+const assigned = require('./assigned.json');
+const availability = require('./availability.json');
+const city = require('./city.json');
+const commands = require('./commands.json');
+const common_positions = require('./common_positions.json');
+const common_sectors = require('./common_sectors.json');
+const common_status = require('./common_status.json');
+const conf_am = require('./conf_am.json');
+const ipm = require('./conf_ipm.json');
+const ipm_history = require('./conf_ipm_history.json');
+const conf_sm = require('./conf_sm.json');
+const crm = require('./crm.json');
+const currency = require('./currency.json');
+const customers = require('./customers.json');
+const device = require('./device.json');
+const device_location = require('./device_location.json');
+const district = require('./district.json');
 const hardware = require("./hardware.json");
 const kfm_kim = require("./kfm_kim.json");
 const kfm_kim_products = require("./kfm_kim_products.json");
 const k_status_log = require('./kfm_kms.json');
 const kfm_sim = require('./kfm_sim.json');
-const kfm_tvr = require('./kfm_tvr.json');
-const kfm_tvr_payMT = require('./kfm_tvr_payMT.json');
-const kfm_tvr_txnType = require('./kfm_tvr_txnType.json');
+const txn_type = require('./txn_type.json');
 const rm_cl = require('./rm_cl.json');
 const kms_logtype = require('./kms_logtype.json');
 const kms_severity = require('./kms_severity.json');
@@ -26,26 +35,20 @@ const status = require('./status.json');
 const type = require('./type.json');
 const users = require('./user.json');
 const provinces = require("./provinces.json");
-const conf_am = require("./conf_am.json");
-const common_status = require("./common_status.json");
-const common_sectors = require("./common_sectors.json");
-const common_positions = require("./common_positions.json");
-const city = require('./city.json')
-const district = require('./district.json')
-const ward = require('./ward.json')
-const ms = require('./ms.json')
-const ms_status = require('./ms_status.json')
-const conf_sm = require("./conf_sm.json");
-const ipm = require("./conf_ipm.json");
-const ipm_history = require("./conf_ipm_history.json");
-const ms_history = require("./ms_history.json");
-const device_location = require("./device_location.json");
-const txn_prepaid_sim = require("./txn_prepaid_sim.json");
-const txn_topup_postpaid = require("./txn_topup_postpaid.json");
-const txn_topup_prepaid = require("./txn_topup_prepaid.json");
-const txn_all = require("./txn_all.json");
-const payment_status = require("./payment_status.json");
-const kiosk_status = require("./kiosk_status.json");
+const ward = require('./ward.json');
+const ms = require('./ms.json');
+const ms_status = require('./ms_status.json');
+const ms_history = require('./ms_history.json');
+const txn_prepaid_sim = require('./txn_prepaid_sim.json');
+const txn_topup_postpaid = require('./txn_topup_postpaid.json');
+const txn_topup_prepaid = require('./txn_topup_prepaid.json');
+const txn_all = require('./txn_all.json');
+const payment_status = require('./payment_status.json');
+const kiosk_status = require('./kiosk_status.json');
+const la = require('./la.json');
+const lg = require('./lg.json');
+const role = require('./role.json');
+const permissions = require('./permissions.json');
 
 module.exports = function () {
   return {
@@ -53,9 +56,7 @@ module.exports = function () {
     kim: kfm_kim,
     kfm_kim_products: kfm_kim_products,
     sim: kfm_sim,
-    tvr: kfm_tvr,
-    payment_method: kfm_tvr_payMT,
-    transaction_type: kfm_tvr_txnType,
+    txn_type: txn_type,
     qlc01: qlc01,
     qlkh01: qlkh01,
     qlt01: qlt01,
@@ -95,8 +96,13 @@ module.exports = function () {
     txn_topup_postpaid: txn_topup_postpaid,
     txn_topup_prepaid: txn_topup_prepaid,
     txn_prepaid_sim: txn_prepaid_sim,
-    txn_all : txn_all,
+    txn_all: txn_all,
     payment_status: payment_status,
-    kiosk_status: kiosk_status
+    kiosk_status: kiosk_status,
+    crm: crm,
+    lg: lg,
+    la: la,
+    role: role,
+    permissions: permissions,
   };
 };

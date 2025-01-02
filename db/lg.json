@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Nhóm Kế Toán",
+    "member_count": 15,
+    "created_date": "2024-10-27T08:00:00Z",
+    "last_modified_date": "2024-12-15T08:00:00Z",
+    "role": "Quản trị viên",
+    "status": true,
+    "permissions": "Nhóm quyền 1",
+    "city_province": 2,
+    "district": 7,
+    "ward_commune": 33,
+    "shop": "VTL005 - Viettel Store E"
+  },
+  {
+    "id": 2,
+    "name": "Nhóm Marketing",
+    "member_count": 12,
+    "created_date": "2024-10-26T09:00:00Z",
+    "last_modified_date": "2024-12-14T09:00:00Z",
+    "role": "Thành viên",
+    "status": false,
+    "permissions": "Nhóm quyền 3",
+    "city_province": 1,
+    "district": 1,
+    "ward_commune": 2,
+    "shop": "VTL004 - Viettel Store D"
+  },
+  {
+    "id": 3,
+    "name": "Nhóm IT",
+    "member_count": 20,
+    "created_date": "2024-10-25T10:00:00Z",
+    "last_modified_date": "2024-12-13T10:00:00Z",
+    "role": "Quản trị viên",
+    "status": true,
+    "permissions": "Nhóm quyền 4",
+    "city_province": 3,
+    "district": 1,
+    "ward_commune": 54,
+    "shop": "VTL003 - Viettel Store C"
+  },
+  {
+    "id": 4,
+    "name": "Nhóm Hành Chính",
+    "member_count": 10,
+    "created_date": "2024-10-24T11:00:00Z",
+    "last_modified_date": "2024-12-12T11:00:00Z",
+    "role": "Thành viên",
+    "status": false,
+    "permissions": "Nhóm quyền 2",
+    "city_province": 1,
+    "district": 3,
+    "ward_commune": 13,
+    "shop": "VTL002 - Viettel Store B"
+  },
+  {
+    "id": 5,
+    "name": "Nhóm Nhân Sự",
+    "member_count": 18,
+    "created_date": "2024-10-23T12:00:00Z",
+    "last_modified_date": "2024-12-11T12:00:00Z",
+    "role": "Quản trị viên",
+    "status": true,
+    "permissions": "Nhóm quyền 5",
+    "city_province": 2,
+    "district": 7,
+    "ward_commune": 35,
+    "shop": "VTL001 - Viettel Store A"
+  }
+]

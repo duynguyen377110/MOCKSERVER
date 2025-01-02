@@ -1,0 +1,4 @@
+[
+  { "id": 1, "value": "Admin", "name": "Quản trị viên", "color": "#68C0E6" },
+  { "id": 2, "value": "User", "name": "Thành viên", "color": "#4d6eb9" }
+]

@@ -1,0 +1,5 @@
+[
+  { "id": 1, "value": "purchase_payment" , "name": "Thanh toán mua hàng" },
+  { "id": 2, "value": "mobile_topup" , "name": "Nạp tiền điện thoại" },
+  { "id": 3, "value": "bill_payment" , "name": "Thanh toán hóa đơn" }
+]

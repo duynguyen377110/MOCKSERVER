@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Nguyễn Văn A",
+    "email": "example1@email.com",
+    "phone_number": "84912345678",
+    "created_date": "2024-12-27T08:00:00Z",
+    "role": "Quản trị viên",
+    "status": true,
+    "permissions": "Nhóm quyền 1",
+    "city_province": 2,
+    "district": 7,
+    "ward_commune": 35,
+    "shop": "VTL001 - Viettel Store A"
+  },
+  {
+    "id": 2,
+    "name": "Trần Thị B",
+    "email": "example2@email.com",
+    "phone_number": "84987654321",
+    "created_date": "2024-12-28T09:00:00Z",
+    "role": "Thành viên",
+    "status": false,
+    "permissions": "Nhóm quyền 3",
+    "city_province": 1,
+    "district": 1,
+    "ward_commune": 2,
+    "shop": "VTL002 - Viettel Store B"
+  },
+  {
+    "id": 3,
+    "name": "Lê Văn C",
+    "email": "example3@email.com",
+    "phone_number": "84911223344",
+    "created_date": "2024-12-29T10:00:00Z",
+    "role": "Quản trị viên",
+    "status": true,
+    "permissions": "Nhóm quyền 4",
+    "city_province": 3,
+    "district": 11,
+    "ward_commune": 54,
+    "shop": "VTL003 - Viettel Store C"
+  },
+  {
+    "id": 4,
+    "name": "Phạm Thị D",
+    "email": "example4@email.com",
+    "phone_number": "84955667788",
+    "created_date": "2024-12-30T11:00:00Z",
+    "role": "Thành viên",
+    "status": true,
+    "permissions": "Nhóm quyền 2",
+    "city_province": 1,
+    "district": 4,
+    "ward_commune": 20,
+    "shop": "VTL004 - Viettel Store D"
+  },
+  {
+    "id": 5,
+    "name": "Hoàng Văn E",
+    "email": "example5@email.com",
+    "phone_number": "84933445566",
+    "created_date": "2024-12-31T12:00:00Z",
+    "role": "Quản trị viên",
+    "status": false,
+    "permissions": "Nhóm quyền 5",
+    "city_province": 2,
+    "district": 6,
+    "ward_commune": 29,
+    "shop": "VTL005 - Viettel Store E"
+  }
+]
