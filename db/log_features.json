@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "value": "TICKET_MANAGEMENT",
+    "name": "Quản lý Ticket"
+  },
+  {
+    "id": 2,
+    "value": "USER_MANAGEMENT",
+    "name": "Quản lý User"
+  },
+  {
+    "id": 3,
+    "value": "KIOSK_MANAGEMENT",
+    "name": "Quản lý Kiosk"
+  },
+  {
+    "id": 4,
+    "value": "LOGIN_SYSTEM",
+    "name": "Đăng nhập hệ thống"
+  }
+]

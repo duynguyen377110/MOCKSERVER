@@ -1,0 +1,7 @@
+[
+  { "id": 1, "value": "MISSED", "name": "Cuộc gọi nhỡ", "color": "#E1D05F" },
+  { "id": 2, "value": "COMPLETED", "name": "Hoàn thành", "color": "#4CAF50" },
+  { "id": 3, "value": "WAITING", "name": "Đang chờ", "color": "#E0B829" },
+  { "id": 4, "value": "CANCELLED", "name": "Bị huỷ", "color": "#F44336" },
+  { "id": 5, "value": "INPROGRESS", "name": "Đang diễn ra", "color": "#FF9800" }
+]

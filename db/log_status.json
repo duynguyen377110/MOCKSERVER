@@ -1,0 +1,4 @@
+[
+  { "id": 1, "value": "SUCCESS", "name": "Thanh toán", "color": "#4CAF50" },
+  { "id": 2, "value": "FAILED", "name": "Thất bại", "color": "#F44336" }
+]
