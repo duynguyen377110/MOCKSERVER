@@ -3,5 +3,7 @@
   { "id": 2, "value": "COMPLETED", "name": "Hoàn thành", "color": "#4CAF50" },
   { "id": 3, "value": "WAITING", "name": "Đang chờ", "color": "#E0B829" },
   { "id": 4, "value": "CANCELLED", "name": "Bị huỷ", "color": "#F44336" },
-  { "id": 5, "value": "INPROGRESS", "name": "Đang diễn ra", "color": "#FF9800" }
+  { "id": 5, "value": "INPROGRESS", "name": "Đang diễn ra", "color": "#FF9800" },
+  { "id": 6, "value": "SUCCESS", "name": "Giao dịch thành công", "color": "#4CAF50" },
+  { "id": 7, "value": "PENDING", "name": "Chưa hoàn thành", "color": "#E0B829" }
 ]
