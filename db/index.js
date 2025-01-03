@@ -46,6 +46,10 @@ const rm_cl = require('./rm_cl.json');
 const role = require('./role.json');
 const software = require('./software.json');
 const status = require('./status.json');
+const ticket = require('./ticket.json');
+const ticket_issues = require('./ticket_issues.json');
+const ticket_priority = require('./ticket_priority.json');
+const ticket_status = require('./ticket_status.json');
 const txn_all = require('./txn_all.json');
 const txn_prepaid_sim = require('./txn_prepaid_sim.json');
 const txn_topup_postpaid = require('./txn_topup_postpaid.json');
@@ -114,5 +118,9 @@ module.exports = function () {
     log_status: log_status,
     calls_history: calls_history,
     calls_status: calls_status,
+    ticket: ticket,
+    ticket_issues: ticket_issues,
+    ticket_status: ticket_status,
+    ticket_priority: ticket_priority,
   };
 };

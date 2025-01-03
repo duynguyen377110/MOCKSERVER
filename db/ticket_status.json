@@ -1,0 +1,6 @@
+[
+  { "id": 1, "value": "PENDING", "name": "Chưa xử lý", "color": "#E0B829" },
+  { "id": 2, "value": "COMPLETED", "name": "Hoàn thành", "color": "#4e7a50" },
+  { "id": 3, "value": "INPROGRESS", "name": "Đang xử lý", "color": "#FF9800" },
+  { "id": 4, "value": "NEW", "name": "Mới", "color": "#FAC67A" }
+]

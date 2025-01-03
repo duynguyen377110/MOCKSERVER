@@ -1,0 +1,5 @@
+[
+  { "id": 1, "value": "LOW", "name": "Thấp", "color": "#E0B829" },
+  { "id": 2, "value": "MEDIUM", "name": "Trung bình", "color": "#FF9800" },
+  { "id": 3, "value": "HIGH", "name": "Cao", "color": "#F44336" }
+]

@@ -1,0 +1,7 @@
+[
+  { "id": 1, "value": "NETWORK", "name": "Network/Mạng", "color": "#E0B829" },
+  { "id": 2, "value": "SOFTWARE", "name": "Software/Phần mềm", "color": "#E0B829" },
+  { "id": 3, "value": "HARDWARE", "name": "Hardware/Phần cứng", "color": "#E0B829" },
+  { "id": 4, "value": "TRANSACTION", "name": "Transaction/Giao dịch", "color": "#E0B829" },
+  { "id": 5, "value": "OTHER", "name": "Other/Khác", "color": "#E0B829" }
+]
